@@ -127,8 +127,6 @@ Cela ne signifie pas qu’il n’existe pas de lien, mais que les analyses réal
 
 ### Éléments de construction du dashboard
 
-![Éléments de création du dashboard](images/Elements_création_dashboard_Etude_Covid.PNG)
-
 Données catégorielles utilisées pour structurer l'analyse :
 ![Données catégorielles utilisées pour structurer l'analyse](images/Donnée_categorielles_Etude_Covid.PNG)
 
