@@ -68,7 +68,7 @@ Le projet s’appuie sur la méthodologie **Bilan Carbone®**, développée hist
    - identification des postes les plus émetteurs  
    - construction d’indicateurs de lecture et de priorisation  
 
-![Résumé en images des étapes réalisées](images/Mission_Bilan_Carbone_Opio.PNG)
+![Résumé en images des étapes réalisées](images/Mission_Bilan_Carbone_Opio.png)
 ---
 
 ## Résultats clés
