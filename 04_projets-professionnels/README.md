@@ -79,11 +79,11 @@ Les analyses mettent en évidence une concentration des émissions sur quelques 
 - **Chauffage (gaz et fioul)**  
 - **Alimentation**  
 
-### Insights structurants
+### Résultats clés
 
-- une part limitée de certains postes peut générer une part importante des émissions (ex : produits animaux)  
-- les émissions ne sont pas toujours corrélées aux coûts  
-- certains leviers d’action apparaissent clairement prioritaires  
+- Une part limitée de certains postes concentre une proportion importante des émissions (notamment les produits animaux).
+- Les émissions ne sont pas toujours corrélées aux coûts  
+- Des leviers d’action prioritaires émergent clairement, en particulier sur le chauffage et l’isolation des bâtiments publics, ainsi que sur la végétalisation de l’alimentation collective.
 
 ---
 
