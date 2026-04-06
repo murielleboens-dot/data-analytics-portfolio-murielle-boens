@@ -1,1 +1,29 @@
-03_projet-perso-fact-news-territoires- py&excel/cleaned_data/
+# ======================
+# 🔒 SECRETS
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# 🧠 JUPYTER
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# 🐍 PYTHON
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+
+# ======================
+# 📊 DATA
+# ======================
+# données intermédiaires / lourdes
+03_projet-perso-fact-news-territoires-py_excel/cleaned_data
+# ======================
+# 💻 SYSTEM
+# ======================
+.DS_Store
+Thumbs.db
