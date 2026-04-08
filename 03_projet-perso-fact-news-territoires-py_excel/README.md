@@ -129,7 +129,7 @@ Elle aboutit à :
 - un socle de données prêt pour l’agrégation et l’analyse multi-critères
 
 Un point structurant identifié à ce stade :
-👉 seules **362 communes disposent de données complètes sur l’ensemble des indicateurs retenus**
+seules **362 communes disposent de données complètes sur l’ensemble des indicateurs retenus**
 
 Ce sous-ensemble constitue le périmètre analytique de la phase suivante (encore en cours)
 
