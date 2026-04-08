@@ -47,6 +47,18 @@ Le projet repose sur plusieurs sources publiques hétérogènes :
 
 ---
 
+## Structure du projet
+
+- `N1` — Introduction et cadrage
+- `N2` — Sources de données et méthodologie
+- `N3` — Collecte et transformation des données
+- `N4` — Agrégation des données
+- `N5` — Analyse multi-critères
+- `cleaned_data/` — fichiers nettoyés
+- `requirements.txt` — dépendances
+
+---
+
 ## Enjeux data
 
 Les données présentent plusieurs défis :
@@ -61,7 +73,7 @@ L’enjeu principal est l’harmonisation et la mise en cohérence de ces source
 
 ## Pipeline de traitement des données
 
-Le projet met en œuvre un pipeline complet :
+Le projet met en œuvre un pipeline complet allant de la collecte à la structuration analytique des données :
 
 1. **Collecte**
    - téléchargement de fichiers compressés (INSEE)
@@ -69,24 +81,24 @@ Le projet met en œuvre un pipeline complet :
    - appel API REST (ATMO)
 
 2. **Transformation**
-   - nettoyage des données
+   - nettoyage et filtrage des données
    - normalisation des formats
    - conversion des types
-   - flattening de structures JSON
 
 3. **Structuration**
-   - création de tables analytiques homogènes (DataFrames) :
+   - création de tables analytiques homogènes (DataFrames) exportées dans `cleaned_data/` :
      - `crime`
-     - `declared_income`
-     - `disposable_income`
-     - `air_pollution` (EN COURS)
+     - `declared_income_2021`
+     - `disposable_income_2021`
+     - `economy`
+     - `air_pollution`
+     - tables spécifiques (ex : arrondissements Marseille)
 
-   - création de tables de correspondance géographique pour gérer les différentes granularités territoriales et les codes INSEE :
-     - `insee_to_commune`
-     - `iris_to_commune`
+   - mise en place d’une table pivot géographique permettant les jointures inter-sources :
+     - `insee_to_commune` (clé centrale du modèle)
 
 4. **Requêtes et filtrage**
-   - utilisation de DuckDB pour requêtes SQL ciblées
+   - utilisation de DuckDB pour requêtes SQL ciblées et validation des transformations
 
 ---
 
@@ -106,28 +118,64 @@ Une attention particulière est portée :
 
 ---
 
-## Résultats (phase exploratoire)
+## Résultats (phase de préparation des données)
 
-Cette première phase du projet met en place les bases nécessaires à l’analyse :
+La phase N3 finalisée constitue la couche de préparation analytique du projet.
 
-- datasets nettoyés et exploitables
-- structuration des indicateurs
-- premières explorations des distributions
+Elle aboutit à :
+- des datasets nettoyés, structurés et exploitables
+- une harmonisation multi-sources (formats, temporalité, granularité)
+- la mise en place d’une clé géographique commune (`insee_to_commune`)
+- un socle de données prêt pour l’agrégation et l’analyse multi-critères
 
-Les analyses approfondies et les corrélations feront l’objet d’une phase ultérieure.
+Un point structurant identifié à ce stade :
+👉 seules **362 communes disposent de données complètes sur l’ensemble des indicateurs retenus**
+
+Ce sous-ensemble constitue le périmètre analytique de la phase suivante (encore en cours)
 
 ---
 
 ## Limites
 
-- hétérogénéité des sources
-- granularité différente selon les indicateurs
-- données parfois incomplètes
-- dépendance à la qualité des déclarations
+Les principales limites du projet sont liées à l’hétérogénéité des sources :
+
+- couverture géographique inégale (pollution limitée à certaines zones)
+- temporalités différentes entre les datasets (2021 à 2025)
+- données partielles ou contraintes (notamment pour la criminalité)
+
+Ces éléments introduisent :
+- des limites de comparabilité
+- un biais géographique dans le sous-ensemble exploitable
+- des contraintes d’interprétation des résultats
 
 ---
 
-## Compétences mobilisées
+## Choix méthodologiques
+
+Afin de garantir la cohérence de l’analyse, le projet repose sur les choix suivants :
+
+- utilisation d’une clé géographique commune (`insee_to_commune`) comme pivot de jointure
+- restriction de l’analyse aux 362 communes disposant de données complètes
+- priorité donnée à la qualité et à la comparabilité des données plutôt qu’à la couverture exhaustive
+
+Ce choix améliore la robustesse des analyses, mais introduit un biais géographique qu’il convient de prendre en compte.
+
+---
+
+## Prochaines étapes
+
+- **N4 — Agrégation des données**
+  - construction d’une table analytique unique au niveau commune
+  - consolidation des indicateurs multi-sources
+
+- **N5 — Analyse multi-critères**
+  - construction d’indicateurs composites
+  - exploration des corrélations
+  - aide à la décision territoriale
+
+---
+
+## Compétences mobilisées à ce stade
 
 - Python (pandas, requests, numpy)
 - Manipulation de données multi-sources
@@ -136,13 +184,3 @@ Les analyses approfondies et les corrélations feront l’objet d’une phase ul
 - DuckDB (requêtes SQL)
 - Nettoyage et structuration de données
 - Analyse exploratoire
-
----
-
-## Structure du projet
-
-- `N1` — Introduction et cadrage
-- `N2` — Sources de données et méthodologie
-- `N3` — Collecte et transformation des données
-- `cleaned_data/` — fichiers nettoyés
-- `requirements.txt` — dépendances
