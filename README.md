@@ -51,6 +51,8 @@ Ce projet inclut :
 
 Objectif : montrer ma maîtrise d’Excel pour l’analyse de données
 
+Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/02_projet-perso-etude-covid-excel)
+
 ---
 
 ### 03 – Projet personnel : Fact News Territoires (Python & Excel)
@@ -63,6 +65,8 @@ Ce projet vise à :
 - produire des analyses exploitables
 
 Objectif : démontrer ma capacité à combiner outils et approches
+
+Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_projet-perso-fact-news-territoires-py_excel)
 
 ---
 
