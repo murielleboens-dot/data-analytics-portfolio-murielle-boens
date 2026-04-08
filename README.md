@@ -32,7 +32,7 @@ Je m’intéresse particulièrement à des contextes où les données permettent
 
 ### 01 – CV, diplômes et certifications
 
-Ce dossier contient :
+Ce [dossier](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/01_cv-diplomes-certifications) contient :
 - mon CV
 - mes diplômes
 - mes certifications liées à la data, à l’analyse et aux outils numériques
@@ -80,6 +80,8 @@ On y trouve :
 - des éléments de mise en action basés sur les données
 
 Objectif : illustrer le passage de l’analyse à l’opérationnel
+
+Accédez aux projets PRO [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/04_projets-professionnels)
 
 ---
 
