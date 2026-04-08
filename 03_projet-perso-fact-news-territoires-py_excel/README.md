@@ -100,6 +100,8 @@ Le projet met en œuvre un pipeline complet allant de la collecte à la structur
 4. **Requêtes et filtrage**
    - utilisation de DuckDB pour requêtes SQL ciblées et validation des transformations
 
+Visualisez le code [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/blob/main/03_projet-perso-fact-news-territoires-py_excel/N3%20%E2%80%94%20COLLECT%20%26%20CLEAN%20%20Fact_News_Territoires.ipynb)
+
 ---
 
 ## Méthodologie
