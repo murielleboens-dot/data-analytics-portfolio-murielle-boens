@@ -1424,6 +1424,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2016,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,33658,True
 13054,2016,Trafic de stupéfiants,Mis en cause,17.0,0.5050805,33658,True
 13054,2016,Escroqueries et fraudes aux moyens de paiement,Victime,104.0,3.0899043,33658,True
+13055,2016,Violences physiques intrafamiliales,Victime,2087.0,2.4205212,862211,True
+13055,2016,Violences physiques hors cadre familial,Victime,3790.0,4.3956758,862211,True
+13055,2016,Violences sexuelles,Victime,783.0,0.9081304,862211,True
+13055,2016,Vols avec armes,Infraction,543.0,0.6297762,862211,True
+13055,2016,Vols violents sans arme,Infraction,4032.0,4.6763495,862211,True
+13055,2016,Vols sans violence contre des personnes,Victime entendue,17904.0,20.7652187,862211,True
+13055,2016,Cambriolages de logement,Infraction,4558.0,10.3864457,862211,True
+13055,2016,Vols de véhicule,Véhicule,6852.0,7.9470107,862211,True
+13055,2016,Vols dans les véhicules,Véhicule,8327.0,9.6577288,862211,True
+13055,2016,Vols d'accessoires sur véhicules,Véhicule,3309.0,3.8378077,862211,True
+13055,2016,Destructions et dégradations volontaires,Infraction,15478.0,17.9515223,862211,True
+13055,2016,Usage de stupéfiants,Mis en cause,3148.0,3.6510784,862211,True
+13055,2016,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,862211,True
+13055,2016,Trafic de stupéfiants,Mis en cause,938.0,1.0879008,862211,True
+13055,2016,Escroqueries et fraudes aux moyens de paiement,Victime,4108.0,4.764495,862211,True
 13056,2016,Violences physiques intrafamiliales,Victime,95.0,1.9473997,48783,True
 13056,2016,Violences physiques hors cadre familial,Victime,126.0,2.582867,48783,True
 13056,2016,Violences sexuelles,Victime,32.0,0.6559662,48783,True
@@ -3644,6 +3659,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2016,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,8609,True
 69100,2016,Trafic de stupéfiants,Mis en cause,,,8609,False
 69100,2016,Escroqueries et fraudes aux moyens de paiement,Victime,36.0,4.1816703,8609,True
+69123,2016,Violences physiques intrafamiliales,Victime,889.0,1.7238872,515695,True
+69123,2016,Violences physiques hors cadre familial,Victime,2460.0,4.7702615,515695,True
+69123,2016,Violences sexuelles,Victime,542.0,1.0510088,515695,True
+69123,2016,Vols avec armes,Infraction,192.0,0.3723131,515695,True
+69123,2016,Vols violents sans arme,Infraction,2484.0,4.8168006,515695,True
+69123,2016,Vols sans violence contre des personnes,Victime entendue,19176.0,37.1847701,515695,True
+69123,2016,Cambriolages de logement,Infraction,3302.0,11.0328285,515695,True
+69123,2016,Vols de véhicule,Véhicule,1929.0,3.7405831,515695,True
+69123,2016,Vols dans les véhicules,Véhicule,5349.0,10.37241,515695,True
+69123,2016,Vols d'accessoires sur véhicules,Véhicule,990.0,1.9197394,515695,True
+69123,2016,Destructions et dégradations volontaires,Infraction,6552.0,12.7051843,515695,True
+69123,2016,Usage de stupéfiants,Mis en cause,2401.0,4.6558528,515695,True
+69123,2016,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,515695,True
+69123,2016,Trafic de stupéfiants,Mis en cause,385.0,0.7465653,515695,True
+69123,2016,Escroqueries et fraudes aux moyens de paiement,Victime,3346.0,6.4883313,515695,True
 69142,2016,Violences physiques intrafamiliales,Victime,24.0,3.7974684,6320,True
 69142,2016,Violences physiques hors cadre familial,Victime,21.0,3.3227848,6320,True
 69142,2016,Violences sexuelles,Victime,,,6320,False
@@ -6854,6 +6884,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2017,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,32920,True
 13054,2017,Trafic de stupéfiants,Mis en cause,31.0,0.9416768,32920,True
 13054,2017,Escroqueries et fraudes aux moyens de paiement,Victime,116.0,3.5236938,32920,True
+13055,2017,Violences physiques intrafamiliales,Victime,2129.0,2.4660898,863310,True
+13055,2017,Violences physiques hors cadre familial,Victime,3874.0,4.48738,863310,True
+13055,2017,Violences sexuelles,Victime,799.0,0.9255076,863310,True
+13055,2017,Vols avec armes,Infraction,575.0,0.6660412,863310,True
+13055,2017,Vols violents sans arme,Infraction,3366.0,3.8989471,863310,True
+13055,2017,Vols sans violence contre des personnes,Victime entendue,19070.0,22.0894001,863310,True
+13055,2017,Cambriolages de logement,Infraction,4714.0,10.6130054,863310,True
+13055,2017,Vols de véhicule,Véhicule,6517.0,7.5488527,863310,True
+13055,2017,Vols dans les véhicules,Véhicule,7427.0,8.6029352,863310,True
+13055,2017,Vols d'accessoires sur véhicules,Véhicule,3352.0,3.8827304,863310,True
+13055,2017,Destructions et dégradations volontaires,Infraction,15002.0,17.3773036,863310,True
+13055,2017,Usage de stupéfiants,Mis en cause,2300.0,2.6641647,863310,True
+13055,2017,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,863310,True
+13055,2017,Trafic de stupéfiants,Mis en cause,1109.0,1.2845907,863310,True
+13055,2017,Escroqueries et fraudes aux moyens de paiement,Victime,4321.0,5.0051546,863310,True
 13056,2017,Violences physiques intrafamiliales,Victime,105.0,2.1789657,48188,True
 13056,2017,Violences physiques hors cadre familial,Victime,136.0,2.8222794,48188,True
 13056,2017,Violences sexuelles,Victime,30.0,0.6225616,48188,True
@@ -9074,6 +9119,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2017,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,8641,True
 69100,2017,Trafic de stupéfiants,Mis en cause,,,8641,False
 69100,2017,Escroqueries et fraudes aux moyens de paiement,Victime,40.0,4.6290939,8641,True
+69123,2017,Violences physiques intrafamiliales,Victime,857.0,1.6605566,516092,True
+69123,2017,Violences physiques hors cadre familial,Victime,2289.0,4.4352557,516092,True
+69123,2017,Violences sexuelles,Victime,586.0,1.1354565,516092,True
+69123,2017,Vols avec armes,Infraction,144.0,0.27902,516092,True
+69123,2017,Vols violents sans arme,Infraction,2118.0,4.1039195,516092,True
+69123,2017,Vols sans violence contre des personnes,Victime entendue,21317.0,41.3046511,516092,True
+69123,2017,Cambriolages de logement,Infraction,3301.0,10.9495346,516092,True
+69123,2017,Vols de véhicule,Véhicule,1801.0,3.4896879,516092,True
+69123,2017,Vols dans les véhicules,Véhicule,7940.0,15.3848539,516092,True
+69123,2017,Vols d'accessoires sur véhicules,Véhicule,1239.0,2.4007348,516092,True
+69123,2017,Destructions et dégradations volontaires,Infraction,6712.0,13.0054331,516092,True
+69123,2017,Usage de stupéfiants,Mis en cause,2283.0,4.4236299,516092,True
+69123,2017,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,516092,True
+69123,2017,Trafic de stupéfiants,Mis en cause,360.0,0.69755,516092,True
+69123,2017,Escroqueries et fraudes aux moyens de paiement,Victime,3752.0,7.2700216,516092,True
 69142,2017,Violences physiques intrafamiliales,Victime,16.0,2.5260499,6334,True
 69142,2017,Violences physiques hors cadre familial,Victime,16.0,2.5260499,6334,True
 69142,2017,Violences sexuelles,Victime,,,6334,False
@@ -12284,6 +12344,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2018,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,32793,True
 13054,2018,Trafic de stupéfiants,Mis en cause,34.0,1.0368066,32793,True
 13054,2018,Escroqueries et fraudes aux moyens de paiement,Victime,111.0,3.3848687,32793,True
+13055,2018,Violences physiques intrafamiliales,Victime,2484.0,2.8608382,868277,True
+13055,2018,Violences physiques hors cadre familial,Victime,4150.0,4.7795807,868277,True
+13055,2018,Violences sexuelles,Victime,1020.0,1.1747403,868277,True
+13055,2018,Vols avec armes,Infraction,578.0,0.6656862,868277,True
+13055,2018,Vols violents sans arme,Infraction,3877.0,4.4651649,868277,True
+13055,2018,Vols sans violence contre des personnes,Victime entendue,17009.0,19.5893707,868277,True
+13055,2018,Cambriolages de logement,Infraction,5572.0,12.3995669,868277,True
+13055,2018,Vols de véhicule,Véhicule,6312.0,7.2695695,868277,True
+13055,2018,Vols dans les véhicules,Véhicule,8364.0,9.6328706,868277,True
+13055,2018,Vols d'accessoires sur véhicules,Véhicule,3438.0,3.9595659,868277,True
+13055,2018,Destructions et dégradations volontaires,Infraction,13388.0,15.4190425,868277,True
+13055,2018,Usage de stupéfiants,Mis en cause,1966.0,2.2642544,868277,True
+13055,2018,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,868277,True
+13055,2018,Trafic de stupéfiants,Mis en cause,1066.0,1.2277188,868277,True
+13055,2018,Escroqueries et fraudes aux moyens de paiement,Victime,4251.0,4.895903,868277,True
 13056,2018,Violences physiques intrafamiliales,Victime,107.0,2.2098306,48420,True
 13056,2018,Violences physiques hors cadre familial,Victime,189.0,3.9033457,48420,True
 13056,2018,Violences sexuelles,Victime,42.0,0.8674102,48420,True
@@ -14504,6 +14579,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2018,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,8695,True
 69100,2018,Trafic de stupéfiants,Mis en cause,,,8695,False
 69100,2018,Escroqueries et fraudes aux moyens de paiement,Victime,31.0,3.5652674,8695,True
+69123,2018,Violences physiques intrafamiliales,Victime,1075.0,2.0727487,518635,True
+69123,2018,Violences physiques hors cadre familial,Victime,2566.0,4.9476028,518635,True
+69123,2018,Violences sexuelles,Victime,704.0,1.3574094,518635,True
+69123,2018,Vols avec armes,Infraction,195.0,0.375987,518635,True
+69123,2018,Vols violents sans arme,Infraction,2181.0,4.2052696,518635,True
+69123,2018,Vols sans violence contre des personnes,Victime entendue,22301.0,42.9994119,518635,True
+69123,2018,Cambriolages de logement,Infraction,3317.0,10.8811061,518635,True
+69123,2018,Vols de véhicule,Véhicule,1586.0,3.0580273,518635,True
+69123,2018,Vols dans les véhicules,Véhicule,8658.0,16.6938213,518635,True
+69123,2018,Vols d'accessoires sur véhicules,Véhicule,932.0,1.7970249,518635,True
+69123,2018,Destructions et dégradations volontaires,Infraction,5915.0,11.404938,518635,True
+69123,2018,Usage de stupéfiants,Mis en cause,2351.0,4.5330531,518635,True
+69123,2018,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,518635,True
+69123,2018,Trafic de stupéfiants,Mis en cause,345.0,0.6652077,518635,True
+69123,2018,Escroqueries et fraudes aux moyens de paiement,Victime,3513.0,6.7735498,518635,True
 69142,2018,Violences physiques intrafamiliales,Victime,6.0,0.9329809,6431,True
 69142,2018,Violences physiques hors cadre familial,Victime,18.0,2.7989426,6431,True
 69142,2018,Violences sexuelles,Victime,,,6431,False
@@ -17714,6 +17804,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2019,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,32384,True
 13054,2019,Trafic de stupéfiants,Mis en cause,37.0,1.1425395,32384,True
 13054,2019,Escroqueries et fraudes aux moyens de paiement,Victime,123.0,3.7981719,32384,True
+13055,2019,Violences physiques intrafamiliales,Victime,2772.0,3.183532,870731,True
+13055,2019,Violences physiques hors cadre familial,Victime,4109.0,4.7190234,870731,True
+13055,2019,Violences sexuelles,Victime,1052.0,1.2081803,870731,True
+13055,2019,Vols avec armes,Infraction,556.0,0.6385439,870731,True
+13055,2019,Vols violents sans arme,Infraction,3535.0,4.0598072,870731,True
+13055,2019,Vols sans violence contre des personnes,Victime entendue,16329.0,18.7532085,870731,True
+13055,2019,Cambriolages de logement,Infraction,5516.0,12.1589731,870731,True
+13055,2019,Vols de véhicule,Véhicule,6221.0,7.1445716,870731,True
+13055,2019,Vols dans les véhicules,Véhicule,8433.0,9.6849659,870731,True
+13055,2019,Vols d'accessoires sur véhicules,Véhicule,2873.0,3.2995265,870731,True
+13055,2019,Destructions et dégradations volontaires,Infraction,13409.0,15.3997044,870731,True
+13055,2019,Usage de stupéfiants,Mis en cause,1501.0,1.7238389,870731,True
+13055,2019,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,870731,True
+13055,2019,Trafic de stupéfiants,Mis en cause,1234.0,1.4172,870731,True
+13055,2019,Escroqueries et fraudes aux moyens de paiement,Victime,4955.0,5.6906209,870731,True
 13056,2019,Violences physiques intrafamiliales,Victime,149.0,3.0674847,48574,True
 13056,2019,Violences physiques hors cadre familial,Victime,151.0,3.108659,48574,True
 13056,2019,Violences sexuelles,Victime,45.0,0.9264215,48574,True
@@ -19934,6 +20039,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2019,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,8750,True
 69100,2019,Trafic de stupéfiants,Mis en cause,,,8750,False
 69100,2019,Escroqueries et fraudes aux moyens de paiement,Victime,43.0,4.9142857,8750,True
+69123,2019,Violences physiques intrafamiliales,Victime,1119.0,2.1397062,522969,True
+69123,2019,Violences physiques hors cadre familial,Victime,2637.0,5.0423639,522969,True
+69123,2019,Violences sexuelles,Victime,777.0,1.4857477,522969,True
+69123,2019,Vols avec armes,Infraction,159.0,0.3040333,522969,True
+69123,2019,Vols violents sans arme,Infraction,2026.0,3.8740346,522969,True
+69123,2019,Vols sans violence contre des personnes,Victime entendue,22180.0,42.4116917,522969,True
+69123,2019,Cambriolages de logement,Infraction,3085.0,10.0064479,522969,True
+69123,2019,Vols de véhicule,Véhicule,1833.0,3.5049879,522969,True
+69123,2019,Vols dans les véhicules,Véhicule,6682.0,12.777048,522969,True
+69123,2019,Vols d'accessoires sur véhicules,Véhicule,1122.0,2.1454427,522969,True
+69123,2019,Destructions et dégradations volontaires,Infraction,6053.0,11.5742998,522969,True
+69123,2019,Usage de stupéfiants,Mis en cause,2875.0,5.4974578,522969,True
+69123,2019,Usage de stupéfiants (AFD),Mis en cause,0.0,0.0,522969,True
+69123,2019,Trafic de stupéfiants,Mis en cause,314.0,0.600418,522969,True
+69123,2019,Escroqueries et fraudes aux moyens de paiement,Victime,3956.0,7.5645019,522969,True
 69142,2019,Violences physiques intrafamiliales,Victime,18.0,2.7590435,6524,True
 69142,2019,Violences physiques hors cadre familial,Victime,17.0,2.6057633,6524,True
 69142,2019,Violences sexuelles,Victime,,,6524,False
@@ -23144,6 +23264,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2020,Usage de stupéfiants (AFD),Mis en cause,11.0,0.3383054,32515,True
 13054,2020,Trafic de stupéfiants,Mis en cause,39.0,1.1994464,32515,True
 13054,2020,Escroqueries et fraudes aux moyens de paiement,Victime,163.0,5.0130709,32515,True
+13055,2020,Violences physiques intrafamiliales,Victime,2712.0,3.1160916,870321,True
+13055,2020,Violences physiques hors cadre familial,Victime,3713.0,4.266242,870321,True
+13055,2020,Violences sexuelles,Victime,1001.0,1.1501503,870321,True
+13055,2020,Vols avec armes,Infraction,500.0,0.5745007,870321,True
+13055,2020,Vols violents sans arme,Infraction,2963.0,3.404491,870321,True
+13055,2020,Vols sans violence contre des personnes,Victime entendue,13732.0,15.7780865,870321,True
+13055,2020,Cambriolages de logement,Infraction,4902.0,10.7022988,870321,True
+13055,2020,Vols de véhicule,Véhicule,5831.0,6.6998268,870321,True
+13055,2020,Vols dans les véhicules,Véhicule,7869.0,9.0414916,870321,True
+13055,2020,Vols d'accessoires sur véhicules,Véhicule,2875.0,3.3033789,870321,True
+13055,2020,Destructions et dégradations volontaires,Infraction,12034.0,13.8270822,870321,True
+13055,2020,Usage de stupéfiants,Mis en cause,3061.0,3.5170931,870321,True
+13055,2020,Usage de stupéfiants (AFD),Mis en cause,1984.0,2.2796187,870321,True
+13055,2020,Trafic de stupéfiants,Mis en cause,1284.0,1.4753177,870321,True
+13055,2020,Escroqueries et fraudes aux moyens de paiement,Victime,5110.0,5.8713969,870321,True
 13056,2020,Violences physiques intrafamiliales,Victime,158.0,3.257329,48506,True
 13056,2020,Violences physiques hors cadre familial,Victime,192.0,3.9582732,48506,True
 13056,2020,Violences sexuelles,Victime,43.0,0.8864883,48506,True
@@ -25364,6 +25499,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2020,Usage de stupéfiants (AFD),Mis en cause,,,8805,False
 69100,2020,Trafic de stupéfiants,Mis en cause,,,8805,False
 69100,2020,Escroqueries et fraudes aux moyens de paiement,Victime,51.0,5.7921635,8805,True
+69123,2020,Violences physiques intrafamiliales,Victime,1195.0,2.2882726,522228,True
+69123,2020,Violences physiques hors cadre familial,Victime,2256.0,4.3199522,522228,True
+69123,2020,Violences sexuelles,Victime,697.0,1.3346661,522228,True
+69123,2020,Vols avec armes,Infraction,165.0,0.315954,522228,True
+69123,2020,Vols violents sans arme,Infraction,1938.0,3.7110228,522228,True
+69123,2020,Vols sans violence contre des personnes,Victime entendue,16814.0,32.1966651,522228,True
+69123,2020,Cambriolages de logement,Infraction,2349.0,7.5380527,522228,True
+69123,2020,Vols de véhicule,Véhicule,1743.0,3.3376226,522228,True
+69123,2020,Vols dans les véhicules,Véhicule,5920.0,11.3360448,522228,True
+69123,2020,Vols d'accessoires sur véhicules,Véhicule,890.0,1.7042365,522228,True
+69123,2020,Destructions et dégradations volontaires,Infraction,5057.0,9.6835099,522228,True
+69123,2020,Usage de stupéfiants,Mis en cause,2011.0,3.8508085,522228,True
+69123,2020,Usage de stupéfiants (AFD),Mis en cause,419.0,0.8023315,522228,True
+69123,2020,Trafic de stupéfiants,Mis en cause,305.0,0.5840361,522228,True
+69123,2020,Escroqueries et fraudes aux moyens de paiement,Victime,4008.0,7.6748087,522228,True
 69142,2020,Violences physiques intrafamiliales,Victime,10.0,1.5112589,6617,True
 69142,2020,Violences physiques hors cadre familial,Victime,17.0,2.5691401,6617,True
 69142,2020,Violences sexuelles,Victime,,,6617,False
@@ -28574,6 +28724,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2021,Usage de stupéfiants (AFD),Mis en cause,51.0,1.5453141,33003,True
 13054,2021,Trafic de stupéfiants,Mis en cause,18.0,0.545405,33003,True
 13054,2021,Escroqueries et fraudes aux moyens de paiement,Victime,190.0,5.7570524,33003,True
+13055,2021,Violences physiques intrafamiliales,Victime,3397.0,3.8908411,873076,True
+13055,2021,Violences physiques hors cadre familial,Victime,3998.0,4.5792119,873076,True
+13055,2021,Violences sexuelles,Victime,1281.0,1.4672262,873076,True
+13055,2021,Vols avec armes,Infraction,456.0,0.5222913,873076,True
+13055,2021,Vols violents sans arme,Infraction,2797.0,3.2036157,873076,True
+13055,2021,Vols sans violence contre des personnes,Victime entendue,14644.0,16.7728812,873076,True
+13055,2021,Cambriolages de logement,Infraction,5340.0,11.5503359,873076,True
+13055,2021,Vols de véhicule,Véhicule,6219.0,7.1230912,873076,True
+13055,2021,Vols dans les véhicules,Véhicule,9187.0,10.5225662,873076,True
+13055,2021,Vols d'accessoires sur véhicules,Véhicule,2434.0,2.7878444,873076,True
+13055,2021,Destructions et dégradations volontaires,Infraction,12785.0,14.6436278,873076,True
+13055,2021,Usage de stupéfiants,Mis en cause,10541.0,12.0734048,873076,True
+13055,2021,Usage de stupéfiants (AFD),Mis en cause,9158.0,10.4893503,873076,True
+13055,2021,Trafic de stupéfiants,Mis en cause,2007.0,2.298769,873076,True
+13055,2021,Escroqueries et fraudes aux moyens de paiement,Victime,5855.0,6.7061745,873076,True
 13056,2021,Violences physiques intrafamiliales,Victime,181.0,3.7267337,48568,True
 13056,2021,Violences physiques hors cadre familial,Victime,197.0,4.0561687,48568,True
 13056,2021,Violences sexuelles,Victime,54.0,1.1118432,48568,True
@@ -30794,6 +30959,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2021,Usage de stupéfiants (AFD),Mis en cause,,,8867,False
 69100,2021,Trafic de stupéfiants,Mis en cause,,,8867,False
 69100,2021,Escroqueries et fraudes aux moyens de paiement,Victime,70.0,7.8944401,8867,True
+69123,2021,Violences physiques intrafamiliales,Victime,1359.0,2.602202,522250,True
+69123,2021,Violences physiques hors cadre familial,Victime,2497.0,4.781235,522250,True
+69123,2021,Violences sexuelles,Victime,858.0,1.6428913,522250,True
+69123,2021,Vols avec armes,Infraction,186.0,0.3561513,522250,True
+69123,2021,Vols violents sans arme,Infraction,2716.0,5.2005744,522250,True
+69123,2021,Vols sans violence contre des personnes,Victime entendue,21903.0,41.9396841,522250,True
+69123,2021,Cambriolages de logement,Infraction,2460.0,7.7899848,522250,True
+69123,2021,Vols de véhicule,Véhicule,2193.0,4.1991383,522250,True
+69123,2021,Vols dans les véhicules,Véhicule,8193.0,15.6878889,522250,True
+69123,2021,Vols d'accessoires sur véhicules,Véhicule,920.0,1.7616084,522250,True
+69123,2021,Destructions et dégradations volontaires,Infraction,5350.0,10.244136,522250,True
+69123,2021,Usage de stupéfiants,Mis en cause,2461.0,4.7123025,522250,True
+69123,2021,Usage de stupéfiants (AFD),Mis en cause,1480.0,2.8338918,522250,True
+69123,2021,Trafic de stupéfiants,Mis en cause,294.0,0.5629488,522250,True
+69123,2021,Escroqueries et fraudes aux moyens de paiement,Victime,4794.0,9.1795117,522250,True
 69142,2021,Violences physiques intrafamiliales,Victime,15.0,2.2744503,6595,True
 69142,2021,Violences physiques hors cadre familial,Victime,13.0,1.9711903,6595,True
 69142,2021,Violences sexuelles,Victime,,,6595,False
@@ -34004,6 +34184,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2022,Usage de stupéfiants (AFD),Mis en cause,78.0,2.3519479,33164,True
 13054,2022,Trafic de stupéfiants,Mis en cause,40.0,1.2061271,33164,True
 13054,2022,Escroqueries et fraudes aux moyens de paiement,Victime,165.0,4.9752744,33164,True
+13055,2022,Violences physiques intrafamiliales,Victime,3587.0,4.0890774,877215,True
+13055,2022,Violences physiques hors cadre familial,Victime,4340.0,4.9474758,877215,True
+13055,2022,Violences sexuelles,Victime,1414.0,1.6119195,877215,True
+13055,2022,Vols avec armes,Infraction,473.0,0.5392065,877215,True
+13055,2022,Vols violents sans arme,Infraction,3069.0,3.4985722,877215,True
+13055,2022,Vols sans violence contre des personnes,Victime entendue,16748.0,19.0922408,877215,True
+13055,2022,Cambriolages de logement,Infraction,5484.0,11.8618057,877215,True
+13055,2022,Vols de véhicule,Véhicule,6794.0,7.7449656,877215,True
+13055,2022,Vols dans les véhicules,Véhicule,12133.0,13.8312728,877215,True
+13055,2022,Vols d'accessoires sur véhicules,Véhicule,2883.0,3.2865375,877215,True
+13055,2022,Destructions et dégradations volontaires,Infraction,12316.0,14.0398876,877215,True
+13055,2022,Usage de stupéfiants,Mis en cause,15895.0,18.1198452,877215,True
+13055,2022,Usage de stupéfiants (AFD),Mis en cause,14522.0,16.5546645,877215,True
+13055,2022,Trafic de stupéfiants,Mis en cause,2182.0,2.4874176,877215,True
+13055,2022,Escroqueries et fraudes aux moyens de paiement,Victime,6400.0,7.2958169,877215,True
 13056,2022,Violences physiques intrafamiliales,Victime,210.0,4.301692,48818,True
 13056,2022,Violences physiques hors cadre familial,Victime,185.0,3.7895858,48818,True
 13056,2022,Violences sexuelles,Victime,62.0,1.2700234,48818,True
@@ -36224,6 +36419,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2022,Usage de stupéfiants (AFD),Mis en cause,,,8909,False
 69100,2022,Trafic de stupéfiants,Mis en cause,,,8909,False
 69100,2022,Escroqueries et fraudes aux moyens de paiement,Victime,55.0,6.1735324,8909,True
+69123,2022,Violences physiques intrafamiliales,Victime,1370.0,2.6306997,520774,True
+69123,2022,Violences physiques hors cadre familial,Victime,2783.0,5.3439688,520774,True
+69123,2022,Violences sexuelles,Victime,1040.0,1.9970275,520774,True
+69123,2022,Vols avec armes,Infraction,211.0,0.4051662,520774,True
+69123,2022,Vols violents sans arme,Infraction,2411.0,4.6296474,520774,True
+69123,2022,Vols sans violence contre des personnes,Victime entendue,21275.0,40.8526539,520774,True
+69123,2022,Cambriolages de logement,Infraction,3405.0,10.7824789,520774,True
+69123,2022,Vols de véhicule,Véhicule,2245.0,4.3108911,520774,True
+69123,2022,Vols dans les véhicules,Véhicule,9696.0,18.618441,520774,True
+69123,2022,Vols d'accessoires sur véhicules,Véhicule,1368.0,2.6268593,520774,True
+69123,2022,Destructions et dégradations volontaires,Infraction,5200.0,9.9851375,520774,True
+69123,2022,Usage de stupéfiants,Mis en cause,3785.0,7.268028,520774,True
+69123,2022,Usage de stupéfiants (AFD),Mis en cause,2656.0,5.100101,520774,True
+69123,2022,Trafic de stupéfiants,Mis en cause,374.0,0.7181618,520774,True
+69123,2022,Escroqueries et fraudes aux moyens de paiement,Victime,4048.0,7.7730455,520774,True
 69142,2022,Violences physiques intrafamiliales,Victime,26.0,3.967043,6554,True
 69142,2022,Violences physiques hors cadre familial,Victime,22.0,3.3567287,6554,True
 69142,2022,Violences sexuelles,Victime,,,6554,False
@@ -39434,6 +39644,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2023,Usage de stupéfiants (AFD),Mis en cause,118.0,3.558075,33164,True
 13054,2023,Trafic de stupéfiants,Mis en cause,63.0,1.8996502,33164,True
 13054,2023,Escroqueries et fraudes aux moyens de paiement,Victime,172.0,5.1863466,33164,True
+13055,2023,Violences physiques intrafamiliales,Victime,3738.0,4.261213,877215,True
+13055,2023,Violences physiques hors cadre familial,Victime,4208.0,4.7969996,877215,True
+13055,2023,Violences sexuelles,Victime,1553.0,1.7703756,877215,True
+13055,2023,Vols avec armes,Infraction,481.0,0.5483262,877215,True
+13055,2023,Vols violents sans arme,Infraction,2813.0,3.2067395,877215,True
+13055,2023,Vols sans violence contre des personnes,Victime entendue,16142.0,18.4014181,877215,True
+13055,2023,Cambriolages de logement,Infraction,5533.0,11.9677919,877215,True
+13055,2023,Vols de véhicule,Véhicule,7211.0,8.2203337,877215,True
+13055,2023,Vols dans les véhicules,Véhicule,13680.0,15.5948086,877215,True
+13055,2023,Vols d'accessoires sur véhicules,Véhicule,2826.0,3.2215591,877215,True
+13055,2023,Destructions et dégradations volontaires,Infraction,12374.0,14.1060059,877215,True
+13055,2023,Usage de stupéfiants,Mis en cause,13603.0,15.5070308,877215,True
+13055,2023,Usage de stupéfiants (AFD),Mis en cause,12427.0,14.1664244,877215,True
+13055,2023,Trafic de stupéfiants,Mis en cause,2308.0,2.631054,877215,True
+13055,2023,Escroqueries et fraudes aux moyens de paiement,Victime,6487.0,7.3949944,877215,True
 13056,2023,Violences physiques intrafamiliales,Victime,221.0,4.5270187,48818,True
 13056,2023,Violences physiques hors cadre familial,Victime,185.0,3.7895858,48818,True
 13056,2023,Violences sexuelles,Victime,56.0,1.1471179,48818,True
@@ -41654,6 +41879,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2023,Usage de stupéfiants (AFD),Mis en cause,,,8909,False
 69100,2023,Trafic de stupéfiants,Mis en cause,,,8909,False
 69100,2023,Escroqueries et fraudes aux moyens de paiement,Victime,79.0,8.8674374,8909,True
+69123,2023,Violences physiques intrafamiliales,Victime,1472.0,2.826562,520774,True
+69123,2023,Violences physiques hors cadre familial,Victime,2563.0,4.9215207,520774,True
+69123,2023,Violences sexuelles,Victime,1136.0,2.1813685,520774,True
+69123,2023,Vols avec armes,Infraction,150.0,0.2880328,520774,True
+69123,2023,Vols violents sans arme,Infraction,1776.0,3.4103085,520774,True
+69123,2023,Vols sans violence contre des personnes,Victime entendue,19233.0,36.9315672,520774,True
+69123,2023,Cambriolages de logement,Infraction,2474.0,7.834318,520774,True
+69123,2023,Vols de véhicule,Véhicule,2038.0,3.9134058,520774,True
+69123,2023,Vols dans les véhicules,Véhicule,9281.0,17.8215502,520774,True
+69123,2023,Vols d'accessoires sur véhicules,Véhicule,1378.0,2.6460614,520774,True
+69123,2023,Destructions et dégradations volontaires,Infraction,5334.0,10.2424468,520774,True
+69123,2023,Usage de stupéfiants,Mis en cause,3560.0,6.8359788,520774,True
+69123,2023,Usage de stupéfiants (AFD),Mis en cause,2685.0,5.1557873,520774,True
+69123,2023,Trafic de stupéfiants,Mis en cause,548.0,1.0522799,520774,True
+69123,2023,Escroqueries et fraudes aux moyens de paiement,Victime,4131.0,7.9324237,520774,True
 69142,2023,Violences physiques intrafamiliales,Victime,20.0,3.0515716,6554,True
 69142,2023,Violences physiques hors cadre familial,Victime,18.0,2.7464144,6554,True
 69142,2023,Violences sexuelles,Victime,,,6554,False
@@ -44864,6 +45104,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 13054,2024,Usage de stupéfiants (AFD),Mis en cause,122.0,3.6786877,33164,True
 13054,2024,Trafic de stupéfiants,Mis en cause,42.0,1.2664335,33164,True
 13054,2024,Escroqueries et fraudes aux moyens de paiement,Victime,164.0,4.9451212,33164,True
+13055,2024,Violences physiques intrafamiliales,Victime,3870.0,4.4116893,877215,True
+13055,2024,Violences physiques hors cadre familial,Victime,4309.0,4.9121367,877215,True
+13055,2024,Violences sexuelles,Victime,1536.0,1.750996,877215,True
+13055,2024,Vols avec armes,Infraction,443.0,0.5050073,877215,True
+13055,2024,Vols violents sans arme,Infraction,2567.0,2.9263065,877215,True
+13055,2024,Vols sans violence contre des personnes,Victime entendue,16024.0,18.2669015,877215,True
+13055,2024,Cambriolages de logement,Infraction,4471.0,9.6707026,877215,True
+13055,2024,Vols de véhicule,Véhicule,6412.0,7.3094965,877215,True
+13055,2024,Vols dans les véhicules,Véhicule,11684.0,13.3194257,877215,True
+13055,2024,Vols d'accessoires sur véhicules,Véhicule,3932.0,4.4823675,877215,True
+13055,2024,Destructions et dégradations volontaires,Infraction,11198.0,12.7653996,877215,True
+13055,2024,Usage de stupéfiants,Mis en cause,15773.0,17.9807687,877215,True
+13055,2024,Usage de stupéfiants (AFD),Mis en cause,14724.0,16.7849387,877215,True
+13055,2024,Trafic de stupéfiants,Mis en cause,3284.0,3.743666,877215,True
+13055,2024,Escroqueries et fraudes aux moyens de paiement,Victime,6532.0,7.4462931,877215,True
 13056,2024,Violences physiques intrafamiliales,Victime,264.0,5.4078414,48818,True
 13056,2024,Violences physiques hors cadre familial,Victime,189.0,3.8715228,48818,True
 13056,2024,Violences sexuelles,Victime,75.0,1.5363186,48818,True
@@ -47084,6 +47339,21 @@ insee_commune_id,annee,crime_type,unite_de_compte,nombre,taux_pour_mille,insee_p
 69100,2024,Usage de stupéfiants (AFD),Mis en cause,51.0,5.7245482,8909,True
 69100,2024,Trafic de stupéfiants,Mis en cause,,,8909,False
 69100,2024,Escroqueries et fraudes aux moyens de paiement,Victime,63.0,7.0715007,8909,True
+69123,2024,Violences physiques intrafamiliales,Victime,1476.0,2.8342429,520774,True
+69123,2024,Violences physiques hors cadre familial,Victime,2336.0,4.485631,520774,True
+69123,2024,Violences sexuelles,Victime,1095.0,2.1026395,520774,True
+69123,2024,Vols avec armes,Infraction,151.0,0.289953,520774,True
+69123,2024,Vols violents sans arme,Infraction,1807.0,3.4698353,520774,True
+69123,2024,Vols sans violence contre des personnes,Victime entendue,17866.0,34.3066282,520774,True
+69123,2024,Cambriolages de logement,Infraction,2502.0,7.9229845,520774,True
+69123,2024,Vols de véhicule,Véhicule,1767.0,3.3930265,520774,True
+69123,2024,Vols dans les véhicules,Véhicule,9774.0,18.7682181,520774,True
+69123,2024,Vols d'accessoires sur véhicules,Véhicule,1603.0,3.0781107,520774,True
+69123,2024,Destructions et dégradations volontaires,Infraction,4390.0,8.4297603,520774,True
+69123,2024,Usage de stupéfiants,Mis en cause,3485.0,6.6919623,520774,True
+69123,2024,Usage de stupéfiants (AFD),Mis en cause,2721.0,5.2249152,520774,True
+69123,2024,Trafic de stupéfiants,Mis en cause,556.0,1.0676416,520774,True
+69123,2024,Escroqueries et fraudes aux moyens de paiement,Victime,4653.0,8.9347778,520774,True
 69142,2024,Violences physiques intrafamiliales,Victime,22.0,3.3567287,6554,True
 69142,2024,Violences physiques hors cadre familial,Victime,16.0,2.4412572,6554,True
 69142,2024,Violences sexuelles,Victime,7.0,1.06805,6554,True

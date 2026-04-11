@@ -94,6 +94,7 @@ insee_commune_id,commune_name,population_total,density_class,density_label,count
 13050,Lambesc,10272.0,2.0,Urbain intermédiaire,31.0,31.0,49.0,204.0,32.0,347.0
 13051,Lançon-Provence,10048.0,2.0,Urbain intermédiaire,22.0,28.0,81.0,162.0,20.0,313.0
 13054,Marignane,33957.0,2.0,Urbain intermédiaire,8.0,58.0,234.0,641.0,117.0,1058.0
+13055,Marseille,892391.0,1.0,Urbain dense,28.0,1327.0,3298.0,22807.0,4186.0,31646.0
 13056,Martigues,48807.0,1.0,Urbain dense,16.0,100.0,128.0,1005.0,171.0,1420.0
 13063,Miramas,26576.0,2.0,Urbain intermédiaire,12.0,38.0,67.0,486.0,84.0,687.0
 13069,Pélissanne,11319.0,2.0,Urbain intermédiaire,9.0,9.0,44.0,175.0,25.0,262.0
@@ -242,6 +243,7 @@ insee_commune_id,commune_name,population_total,density_class,density_label,count
 69092,Gleizé,8353.0,2.0,Urbain intermédiaire,5.0,29.0,52.0,174.0,39.0,299.0
 69096,Grigny-sur-Rhône,10094.0,2.0,Urbain intermédiaire,1.0,25.0,57.0,142.0,16.0,241.0
 69100,Irigny,9155.0,1.0,Urbain dense,4.0,11.0,63.0,185.0,31.0,294.0
+69123,Lyon,525314.0,1.0,Urbain dense,21.0,925.0,1104.0,22468.0,2798.0,27316.0
 69142,Mulatière,6605.0,1.0,Urbain dense,1.0,1.0,18.0,104.0,18.0,142.0
 69143,Neuville-sur-Saône,7876.0,2.0,Urbain intermédiaire,0.0,16.0,26.0,254.0,48.0,344.0
 69149,Oullins-Pierre-Bénite,38495.0,1.0,Urbain dense,1.0,59.0,99.0,701.0,142.0,1002.0
