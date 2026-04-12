@@ -166,14 +166,14 @@ Ce choix améliore la robustesse des analyses, mais introduit un biais géograph
 
 ## Prochaines étapes
 
-- **N4 — Agrégation des données**
-  - construction d’une table analytique unique au niveau commune
-  - consolidation des indicateurs multi-sources
-
 - **N5 — Analyse multi-critères**
   - construction d’indicateurs composites
   - exploration des corrélations
   - aide à la décision territoriale
+
+- **N6 — Dashboard PowerBI**
+  - construction d'un premier dashboard test sur PowerBI
+
 
 ---
 
