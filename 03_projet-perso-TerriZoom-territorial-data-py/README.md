@@ -54,6 +54,7 @@ Le projet repose sur plusieurs sources publiques hétérogènes :
 - `N3` — Collecte et transformation des données
 - `N4` — Agrégation des données
 - `N5` — Analyse multi-critères
+- `N6` — Power BI Dashboard
 - `cleaned_data/` — fichiers nettoyés
 - `requirements.txt` — dépendances
 
@@ -179,7 +180,7 @@ Ces choix permettent de construire un cadre analytique solide pour la suite du p
 
 ---
 
-## Prochaines étapes
+## Prochaine étape
 
 - **N5 — Analyse multi-critères**
   - construction d’indicateurs composites
