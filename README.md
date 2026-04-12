@@ -55,18 +55,19 @@ Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portf
 
 ---
 
-### 03 – Projet personnel : Fact News Territoires (Python & Excel)
+## 03 – Projet personnel : TerriZoom (Python & Power BI)
 
-Projet d’analyse territoriale combinant Python et Excel.
+Projet d’exploration territoriale par la donnée, conçu comme un outil d’aide à la décision multicritère à l’échelle locale
+(emploi, dynamiques sociales, santé, sécurité, environnement).
 
 Ce projet vise à :
-- explorer des données locales
+- explorer et croiser des données locales
 - structurer des indicateurs territoriaux
-- produire des analyses exploitables
+- produire des analyses lisibles et exploitables
 
-Objectif : démontrer ma capacité à combiner outils et approches
+Objectif : démontrer ma capacité à combiner plusieurs outils et approches afin de rendre compréhensibles des problématiques territoriales complexes.
 
-Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_projet-perso-fact-news-territoires-py_excel)
+Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_projet-perso-TerriZoom-territorial-data-py)
 
 ---
 

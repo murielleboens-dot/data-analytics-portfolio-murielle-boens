@@ -1,7 +1,0 @@
-pandas
-requests
-duckdb
-matplotlib
-seaborn
-openpyxl
-numpy
