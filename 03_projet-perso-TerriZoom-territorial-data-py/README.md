@@ -195,7 +195,7 @@ Ces choix permettent de construire un cadre analytique solide pour la suite du p
 
 - Python (`pandas`, `numpy`, `requests`, `matplotlib`, `seaborn`)
 - Intégration et croisement de données multi-sources
-- Appels API REST et traitement de fichiers volumineux
+- Appels REST API et traitement de fichiers volumineux
 - Requêtes SQL avec DuckDB
 - Nettoyage, structuration et normalisation de données
 - Harmonisation de données hétérogènes (formats, granularités, temporalités)
