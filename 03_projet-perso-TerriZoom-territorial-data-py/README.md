@@ -32,17 +32,17 @@ Le projet repose sur plusieurs sources publiques hétérogènes :
 
 ### Criminalité
 - Source : données publiques (CSV) - Ministère de l'intérieur
-- Niveau : communes
+- Niveau : communes (INSEE Communes codes)
 - Contenu : nombre de faits, types d’infractions
 
 ### Niveau de vie
 - Source : INSEE (déclarations fiscales)
-- Niveau : communes
+- Niveau : quartiers dans les communes (IRIS codes)
 - Contenu : revenu médian, distribution des revenus
 
 ### Qualité de l’air
 - Source : API ATMO (JSON)
-- Niveau : communes
+- Niveau : communes (INSEE Communes codes)
 - Contenu : indice ATMO et polluants
 
 ---
@@ -120,35 +120,45 @@ Une attention particulière est portée :
 
 ---
 
-## Résultats (phase de préparation des données)
+## Résultats (phases N3 et N4)
 
-La phase N3 finalisée constitue la couche de préparation analytique du projet.
+Les phases **N3 (collecte / nettoyage)** et **N4 (exploration / agrégation)** ont permis de poser la base analytique du projet **TerriZoom**.
 
-Elle aboutit à :
-- des datasets nettoyés, structurés et exploitables
-- une harmonisation multi-sources (formats, temporalité, granularité)
-- la mise en place d’une clé géographique commune (`insee_to_commune`)
-- un socle de données prêt pour l’agrégation et l’analyse multi-critères
+À ce stade, le projet a permis de :
+- nettoyer et structurer plusieurs sources de données publiques
+- harmoniser des jeux de données de granularités et temporalités différentes
+- construire une clé géographique commune (`insee_to_commune`)
+- agréger les principales sources au niveau communal
+- produire une première table analytique unifiée : `terrizoom_communes`
 
-Un point important identifié à ce stade :
-seules **362 communes disposent de données complètes sur l’ensemble des indicateurs retenus**
+La phase N4 a également permis de :
+- consolider les données de revenus à partir des IRIS
+- sélectionner et agréger les indicateurs de criminalité les plus exploitables
+- agréger les données de pollution de l’air à l’échelle communale
+- mener une première exploration des distributions, couvertures et dynamiques territoriales
 
-Ce sous-ensemble constitue le périmètre analytique de la phase suivante (encore en cours)
+Un point méthodologique important a été identifié puis corrigé :
+les cas particuliers de **Paris, Lyon et Marseille** ont nécessité une harmonisation spécifique des codes d’arrondissements municipaux afin d’être correctement réintégrés au niveau communal.
+
+Le périmètre principal d’analyse repose désormais sur **364 communes disposant de données complètes** sur les sources retenues.
 
 ---
 
 ## Limites
 
-Les principales limites du projet sont liées à l’hétérogénéité des sources :
+Le projet reste soumis à plusieurs limites structurelles liées aux sources mobilisées :
 
-- couverture géographique inégale (pollution limitée à certaines zones)
-- temporalités différentes entre les datasets (2021 à 2025)
-- données partielles ou contraintes (notamment pour la criminalité)
+- couverture géographique inégale, notamment pour la pollution de l’air
+- temporalités différentes selon les datasets
+- granularités hétérogènes (IRIS, commune, jour, trimestre, année)
+- disponibilité partielle de certaines données
 
-Ces éléments introduisent :
+Ces contraintes introduisent :
 - des limites de comparabilité
 - un biais géographique dans le sous-ensemble exploitable
-- des contraintes d’interprétation des résultats
+- une prudence nécessaire dans l’interprétation
+
+Le périmètre retenu ne constitue donc **pas une image nationale**, mais un sous-ensemble cohérent de communes comparables au regard des données disponibles.
 
 ---
 
@@ -156,11 +166,16 @@ Ces éléments introduisent :
 
 Afin de garantir la cohérence de l’analyse, le projet repose sur les choix suivants :
 
-- utilisation d’une clé géographique commune (`insee_to_commune`) comme pivot de jointure
-- restriction de l’analyse aux 362 communes disposant de données complètes
-- priorité donnée à la qualité et à la comparabilité des données plutôt qu’à la couverture exhaustive
+- utiliser **`insee_to_commune`** comme table de référence géographique
+- harmoniser les identifiants communaux, y compris pour Paris, Lyon et Marseille
+- agréger les différentes sources au **niveau communal**
+- restreindre l’analyse principale aux **364 communes complètes**
+- privilégier la qualité, la cohérence et la comparabilité des données à l’exhaustivité
 
-Ce choix améliore la robustesse des analyses, mais introduit un biais géographique qu’il convient de prendre en compte.
+Pour la criminalité, seuls les indicateurs les plus robustes ont été retenus pour le noyau principal d’analyse.  
+Pour la pollution, les variables ont été traitées comme des **niveaux ordonnés** et agrégées avec des indicateurs adaptés.
+
+Ces choix permettent de construire un cadre analytique solide pour la suite du projet, notamment en vue d’une future analyse multi-critères.
 
 ---
 
@@ -174,15 +189,16 @@ Ce choix améliore la robustesse des analyses, mais introduit un biais géograph
 - **N6 — Dashboard PowerBI**
   - construction d'un premier dashboard test sur PowerBI
 
-
 ---
 
 ## Compétences mobilisées à ce stade
 
-- Python (pandas, requests, numpy)
-- Manipulation de données multi-sources
-- Appels API REST
-- Traitement de fichiers volumineux (gzip)
-- DuckDB (requêtes SQL)
-- Nettoyage et structuration de données
-- Analyse exploratoire
+- Python (`pandas`, `numpy`, `requests`, `matplotlib`, `seaborn`)
+- Intégration et croisement de données multi-sources
+- Appels API REST et traitement de fichiers volumineux
+- Requêtes SQL avec DuckDB
+- Nettoyage, structuration et normalisation de données
+- Harmonisation de données hétérogènes (formats, granularités, temporalités)
+- Construction de tables de référence géographique
+- Analyse exploratoire et agrégation d’indicateurs
+- Préparation de données pour l’analyse multi-critères
