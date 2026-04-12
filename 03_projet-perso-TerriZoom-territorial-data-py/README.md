@@ -100,7 +100,7 @@ Le projet met en œuvre un pipeline complet allant de la collecte à la structur
 4. **Requêtes et filtrage**
    - utilisation de DuckDB pour requêtes SQL ciblées et validation des transformations
 
-Visualisez le code [ici](03_projet-perso-TerriZoom-territorial-data-py/N4 — EXPLORE & AGGREGATE TerriZoom.ipynb)
+A titre d'exemple, visualisez le code exploratoire de données [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/blob/main/03_projet-perso-TerriZoom-territorial-data-py/N4%20%E2%80%94%20EXPLORE%20%26%20AGGREGATE%20TerriZoom.ipynb)
 
 ---
 
