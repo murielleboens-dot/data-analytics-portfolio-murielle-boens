@@ -2,28 +2,30 @@
 
 ## Contexte
 
-Les débats publics locaux reposent souvent sur des perceptions : sentiment d’insécurité, vision de la pauvreté, perception de niveaux de pollution (ou souvent absence de perception).
+Les territoires locaux sont souvent décrits à travers des dimensions qui interagissent fortement entre elles :
+niveau de vie, vulnérabilité sociale, dynamiques économiques, sécurité, environnement.
 
-Ces perceptions peuvent être partielles, biaisées ou difficilement comparables entre territoires.
+Ces dimensions sont généralement observées à travers des sources hétérogènes, produites à des échelles différentes et difficilement lisibles lorsqu’elles sont prises séparément.
 
-Ce projet vise à confronter ces perceptions à des indicateurs objectifs issus de données publiques.
+TerriZoom vise à croiser ces données publiques afin de construire une lecture territoriale plus structurée, comparative et exploitable à l’échelle communale.
 
 ---
 
 ## Problématique
 
-Les indicateurs objectifs confirment-ils ou contredisent-ils les perceptions locales concernant la sécurité, le niveau de vie et les niveaux de pollution ?
+Comment construire une lecture multicritère cohérente des communes à partir de données publiques hétérogènes portant sur le niveau de vie, les fragilités sociales, la sécurité et la pollution ?
 
 ---
 
 ## Objectif du projet
 
-Construire une analyse territoriale basée sur des données multi-sources afin de :
+Construire un cadre d’analyse territoriale multicritère à l’échelle communale afin de :
 
-- comparer des indicateurs à différentes échelles géographiques
-- analyser leur évolution et leur distribution
-- explorer des corrélations entre phénomènes (criminalité, niveau de vie, pollution)
-
+- harmoniser et croiser plusieurs sources de données publiques
+- produire des indicateurs comparables entre communes
+- explorer les profils territoriaux selon plusieurs dimensions
+- tester des méthodes d’aide à la décision multicritère (TOPSIS, ELECTRE III)
+- rendre les résultats lisibles dans un dashboard Power BI
 ---
 
 ## Données
