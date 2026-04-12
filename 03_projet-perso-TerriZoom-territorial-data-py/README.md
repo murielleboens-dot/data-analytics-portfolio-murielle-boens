@@ -182,11 +182,6 @@ Ces choix permettent de construire un cadre analytique solide pour la suite du p
 
 ## Prochaine étape
 
-- **N5 — Analyse multi-critères**
-  - construction d’indicateurs composites
-  - exploration des corrélations
-  - aide à la décision territoriale
-
 - **N6 — Dashboard PowerBI**
   - construction d'un premier dashboard test sur PowerBI
 
