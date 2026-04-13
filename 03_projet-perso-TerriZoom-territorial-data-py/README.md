@@ -26,26 +26,45 @@ Construire un cadre d’analyse territoriale multicritère à l’échelle commu
 - explorer les profils territoriaux selon plusieurs dimensions
 - tester des méthodes d’aide à la décision multicritère (TOPSIS, ELECTRE III)
 - rendre les résultats lisibles dans un dashboard Power BI
+
 ---
 
 ## Données
 
-Le projet repose sur plusieurs sources publiques hétérogènes :
+Le projet repose sur une base consolidée au niveau **commune** (`insee_commune_id`), construite à partir de plusieurs sources publiques hétérogènes.
 
-### Criminalité
-- Source : données publiques (CSV) - Ministère de l'intérieur
-- Niveau : communes (INSEE Communes codes)
-- Contenu : nombre de faits, types d’infractions
+### Référentiel territorial
+- **Sources :** INSEE, tables de correspondance **IRIS → commune**
+- **Niveau final :** commune
+- **Contenu :** identifiant INSEE, nom de commune, population, densité, nombre d’IRIS rattachés
+- **Couverture :** référentiel géographique **2021**
+
+### Services, équipements et activité territoriale
+- **Sources :** données publiques d’activité et de services agrégées au niveau communal
+- **Niveau final :** commune
+- **Contenu :** densités pour 1 000 habitants de plusieurs catégories d’activités et de services (`agriculture`, `industry`, `construction`, `commercial_services`, `public_services`, `total`)
+- **Couverture :** **2024**
 
 ### Niveau de vie
-- Source : INSEE (déclarations fiscales)
-- Niveau : quartiers dans les communes (IRIS codes)
-- Contenu : revenu médian, distribution des revenus
+- **Source :** **INSEE**, données fiscales et sociales localisées
+- **Niveau source :** IRIS
+- **Niveau final :** commune après agrégation
+- **Contenu :** revenus, bas revenus et structure des ressources des ménages
+- **Couverture :** **2021**
 
-### Qualité de l’air
-- Source : API ATMO (JSON)
-- Niveau : communes (INSEE Communes codes)
-- Contenu : indice ATMO et polluants
+### Sécurité et délinquance
+- **Source :** données publiques du **Ministère de l’Intérieur / SSMSI**
+- **Niveau final :** commune
+- **Contenu :** indicateurs de délinquance pour 1 000 habitants selon plusieurs types d’infractions
+- **Couverture :** **2016–2024**
+
+### Pollution de l’air
+- **Source :** **API ATMO** / données ouvertes de qualité de l’air
+- **Niveau final :** commune
+- **Contenu :** niveaux moyens, maxima et parts d’observations dans les niveaux élevés pour plusieurs polluants (`NO2`, `O3`, `PM10`, `PM2.5`, `SO2`)
+- **Couverture :** **2025**
+
+**Remarque :** le **TOPSIS**/**ELECTRE** utilisé dans le projet ne mobilise qu’un sous-ensemble de cette base complète, sélectionné pour l’exercice de classement multicritère.
 
 ---
 
@@ -55,7 +74,7 @@ Le projet repose sur plusieurs sources publiques hétérogènes :
 - `N2` — Sources de données et méthodologie
 - `N3` — Collecte et transformation des données
 - `N4` — Agrégation des données
-- `N5` — Analyse multi-critères
+- `N5` — Analyse multicritère
 - `N6` — Power BI Dashboard
 - `cleaned_data/` — fichiers nettoyés
 - `requirements.txt` — dépendances
@@ -67,10 +86,13 @@ Le projet repose sur plusieurs sources publiques hétérogènes :
 Les données présentent plusieurs défis :
 
 - formats variés (CSV, gzip, JSON API)
-- structures imbriquées (JSON)
-- données déclaratives ou partielles
+- mailles géographiques différentes (IRIS, commune)
+- couvertures temporelles hétérogènes selon les sources
+- structures parfois imbriquées ou partielles
+- nécessité de normaliser certaines variables par la population
+- restriction finale au sous-ensemble de communes disposant d’un recouvrement exploitable entre sources
 
-L’enjeu principal est l’harmonisation et la mise en cohérence de ces sources.
+L’enjeu principal est donc l’harmonisation des identifiants, des échelles géographiques et des périodes d’observation afin de construire une base cohérente pour l’analyse multicritère.
 
 ---
 
