@@ -169,6 +169,23 @@ Le périmètre principal d’analyse repose désormais sur **364 communes dispos
 
 ---
 
+## Résultats (phase N5)
+
+La phase N5 (analyse multicritère) a permis de construire un premier cadre de comparaison territoriale à partir de la table communale consolidée produite en N4.
+
+À ce stade, le projet a permis de :
+
+- retenir un sous-ensemble de critères couvrant quatre dimensions : **dynamisme territorial**, **niveau de vie**, **sécurité** et **pollution**
+- définir le sens de préférence de chaque critère (**bénéfice** ou **coût**)
+- conserver l’échantillon complet par traitement simple des dernières valeurs manquantes
+- produire deux scénarios de classement avec **TOPSIS**
+- implémenter une lecture complémentaire avec **ELECTRE III**
+- comparer les résultats obtenus selon les pondérations et selon la méthode mobilisée
+
+La phase N5 montre que les résultats multicritères sont **sensibles aux choix méthodologiques**, sans être totalement instables : certains profils communaux restent robustes, tandis que d’autres varient selon que l’on privilégie une logique de proximité à un profil idéal (TOPSIS) ou une logique de surclassement pair à pair (ELECTRE III).
+
+Le périmètre principal d’analyse repose sur **364 communes**.
+
 ## Limites
 
 Le projet reste soumis à plusieurs limites structurelles liées aux sources mobilisées :
