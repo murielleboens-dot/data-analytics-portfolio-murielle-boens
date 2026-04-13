@@ -186,6 +186,8 @@ La phase N5 montre que les résultats multicritères sont **sensibles aux choix 
 
 Le périmètre principal d’analyse repose sur **364 communes**.
 
+---
+
 ## Limites
 
 Le projet reste soumis à plusieurs limites structurelles liées aux sources mobilisées :
