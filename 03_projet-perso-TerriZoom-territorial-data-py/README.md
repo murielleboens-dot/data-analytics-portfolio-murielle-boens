@@ -232,12 +232,14 @@ Ces choix permettent de construire un cadre analytique solide pour la suite du p
 
 ## Compétences mobilisées à ce stade
 
-- Python (`pandas`, `numpy`, `requests`, `matplotlib`, `seaborn`)
-- Intégration et croisement de données multi-sources
-- Appels REST API et traitement de fichiers volumineux
-- Requêtes SQL avec DuckDB
-- Nettoyage, structuration et normalisation de données
-- Harmonisation de données hétérogènes (formats, granularités, temporalités)
-- Construction de tables de référence géographique
-- Analyse exploratoire et agrégation d’indicateurs
-- Préparation de données pour l’analyse multi-critères
+- Python (`pandas`, `numpy`, `requests`, `matplotlib`)
+- intégration et croisement de données multi-sources
+- traitement de fichiers hétérogènes (CSV, gzip, JSON API)
+- requêtes analytiques avec DuckDB
+- nettoyage, structuration et normalisation de données
+- harmonisation de sources de granularités et temporalités différentes
+- construction de référentiels et de correspondances géographiques
+- analyse exploratoire et agrégation d’indicateurs
+- préparation de données pour l’analyse multicritère
+- mise en œuvre de méthodes MCDA : TOPSIS et ELECTRE III
+- analyse de sensibilité via scénarios de pondération
