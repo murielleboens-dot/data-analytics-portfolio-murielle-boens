@@ -107,7 +107,7 @@ Cette page est dédiée à la qualité de l’air. Elle présente :
 
 La phase N6 joue un rôle de **restitution analytique**. Elle permet de :
 
-- passer d’une logique de tables à une logique d’**exploration visuelle** ;
+- passer d’une logique de code et de quelques graphes disséminés à une logique d’**exploration visuelle plus synthétique** ;
 - rendre les résultats du projet plus accessibles à un décideur ou un lecteur non technique ;
 - montrer la cohérence entre la préparation des données, l’analyse multicritère et la communication des résultats ;
 - mettre en évidence des contrastes territoriaux qui restent plus difficiles à saisir dans un fichier de code seul.
