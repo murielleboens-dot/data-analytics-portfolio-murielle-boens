@@ -16,13 +16,13 @@ Comment construire une lecture multicritère cohérente des communes à partir d
 
 ## Objectif du projet
 
-Construire un cadre d’analyse territoriale multicritère à l’échelle communale afin de 
+Construire un cadre d’analyse territoriale multicritère à l’échelle communale afin de :
 
- harmoniser et croiser plusieurs sources de données publiques ;
- produire des indicateurs comparables entre communes ;
- explorer les profils territoriaux selon plusieurs dimensions ;
- tester des méthodes d’aide à la décision multicritère (TOPSIS et ELECTRE III) ;
- rendre les résultats lisibles dans un dashboard Power BI.
+- harmoniser et croiser plusieurs sources de données publiques ;
+- produire des indicateurs comparables entre communes ;
+- explorer les profils territoriaux selon plusieurs dimensions ;
+- tester des méthodes d’aide à la décision multicritère (TOPSIS et ELECTRE III) ;
+- rendre les résultats lisibles dans un dashboard Power BI.
 
 ---
 
