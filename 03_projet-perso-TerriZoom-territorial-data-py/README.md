@@ -224,7 +224,8 @@ Saint-Tropez se distingue surtout pour les vols sans violence contre les personn
 
 Le “top” des communes observées doit donc être interprété comme un ensemble de profils territoriaux spécialisés selon les formes de délinquance, et non comme un cluster uniforme.
 
-Un point de vigilance méthodologique important apparaît ici  la normalisation pour 1 000 habitants améliore la comparabilité apparente, mais peut devenir plus fragile dans les communes à forte population présente non résidente, notamment touristiques ou saisonnières. Des communes comme Saint-Tropez ou Cannes peuvent ainsi voir leur population réelle largement dépasser leur population municipale officielle pendant une grande partie de l’année, ce qui peut conduire à surestimer certains taux rapportés aux seuls habitants permanents.
+Un point de vigilance méthodologique important apparaît ici : 
+- la normalisation pour 1 000 habitants améliore la comparabilité apparente, mais peut devenir plus fragile dans les communes à forte population présente non résidente, notamment touristiques ou saisonnières. Des communes comme Saint-Tropez ou Cannes peuvent ainsi voir leur population réelle largement dépasser leur population municipale officielle pendant une grande partie de l’année, ce qui peut conduire à surestimer certains taux rapportés aux seuls habitants permanents.
 
 ![Usage de stupéfiants - Top 10 communes](./images/TerriZoom%20-%20Usage%20de%20stupefiants%20-%20TOP%2010%20Communes.png)
 ![Violences intrafamiliales - Top 10 communes](./images/TerriZoom%20-%20Violences%20intra%20familiales%20%20-%20TOP%2010%20Communes.png)
@@ -238,7 +239,7 @@ La phase N5 a permis de construire un premier cadre de comparaison territoriale 
 
 À ce stade, le projet a permis de :
 
- - retenir un sous-ensemble de critères couvrant quatre dimensions  dynamisme territorial, niveau de vie, sécurité et pollution
+ - retenir un sous-ensemble de critères couvrant quatre dimensions : dynamisme territorial, niveau de vie, sécurité et pollution
  - définir le sens de préférence de chaque critère (bénéfice ou coût)
  - conserver l’échantillon complet par traitement simple des dernières valeurs manquantes
  - produire deux scénarios de classement avec TOPSIS
@@ -247,7 +248,7 @@ La phase N5 a permis de construire un premier cadre de comparaison territoriale 
 
 ### Sensibilité aux pondérations : un classement sensible, mais non instable
 
-Sous le second scénario de pondération, le haut du classement demeure partiellement stable, tout en étant moins dominé par un seul profil très dynamique.
+Sous le second scénario de pondération, le haut du classement demeure partiellement stable, tout en étant moins dominé par un seul profil.
 
 Saint-Tropez conserve la première place, ce qui suggère que son positionnement ne repose pas uniquement sur un critère exceptionnel, mais sur une combinaison plus large d’indicateurs favorables. D’autres communes restent durablement bien classées, comme Valbonne, Chamonix-Mont-Blanc, Bourg-Saint-Maurice, Lavandou, Biot ou Sainte-Maxime, ce qui indique des profils multicritères relativement robustes.
 
@@ -261,13 +262,17 @@ En bas de classement, les communes les moins bien classées restent globalement 
 
 La comparaison entre TOPSIS et ELECTRE III montre que les deux méthodes ne récompensent pas exactement les mêmes profils communaux.
 
-TOPSIS valorise les communes les plus proches d’un profil idéal équilibré. La logique est compensatoire  un bon niveau sur certains critères peut compenser des positions plus faibles sur d’autres, tant que l’ensemble reste proche d’une solution considérée comme favorable.
+TOPSIS valorise les communes les plus proches d’un profil idéal équilibré. La logique est compensatoire : 
+- un bon niveau sur certains critères peut compenser des positions plus faibles sur d’autres, tant que l’ensemble reste proche d’une solution considérée comme favorable.
 
-ELECTRE III, au contraire, se montre plus sensible aux relations de surclassement pair à pair. Une commune n’a pas besoin d’être proche d’un optimum global pour bien ressortir. Elle peut être bien classée dès lors qu’elle surclasse fréquemment d’autres communes sans être fortement dominée sur les critères importants.
+ELECTRE III, au contraire, se montre plus sensible aux relations de surclassement pair à pair. 
+- Une commune n’a pas besoin d’être proche d’un optimum global pour bien ressortir. Elle peut être bien classée dès lors qu’elle surclasse fréquemment d’autres communes et qu'elle n'est pas fortement dominée sur les critères importants.
 
-Cette différence de logique apparaît clairement dans les résultats. Plusieurs communes situées seulement au milieu de la hiérarchie TOPSIS remontent fortement sous ELECTRE III, comme Thônes, Motte-Servolex, Chamalières, Monistrol-sur-Loire ou Yzeure. À l’inverse, certaines communes bien positionnées dans TOPSIS demeurent relativement solides dans les deux approches, comme Chamonix-Mont-Blanc, Bourg-Saint-Maurice, Saint-Jean-de-Maurienne ou Aubière, ce qui suggère qu’une partie du signal multicritère reste robuste d’une méthode à l’autre.
+Cette différence de logique apparaît clairement dans les résultats. 
+- Plusieurs communes situées seulement au milieu de la hiérarchie TOPSIS remontent fortement sous ELECTRE III, comme Thônes, Motte-Servolex, Chamalières, Monistrol-sur-Loire ou Yzeure. 
+- À l’inverse, certaines communes bien positionnées dans TOPSIS demeurent relativement solides dans les deux approches, comme Chamonix-Mont-Blanc, Bourg-Saint-Maurice, Saint-Jean-de-Maurienne ou Aubière, ce qui suggère qu’une partie du signal multicritère reste robuste d’une méthode à l’autre.
 
-Au final, la comparaison confirme que les résultats multicritères sont sensibles aux choix méthodologiques, non seulement en matière de pondération, mais aussi de méthode de décision. Ce point renforce l’intérêt d’une démarche transparente  un classement n’est jamais “neutre”, il dépend toujours d’une architecture de choix explicites.
+Au final, la comparaison confirme que les résultats multicritères sont sensibles aux choix méthodologiques, non seulement en matière de pondération, mais aussi de méthode de décision. Ce point renforce l’intérêt d’une démarche transparente : un classement n’est jamais “neutre”, il dépend toujours d’une architecture de choix explicites.
 
 ![Comparaison ELECTRE III et TOPSIS](./images/TerriZoom%20-%20Analyse%20multicritère%20comparaison%20ELCTRE%20III%20TOPSIS.png)
 
