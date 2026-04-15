@@ -185,9 +185,14 @@ Cela met en évidence un biais de sélection urbain marqué, directement lié à
 
 L’exploration des variables socio-économiques met en évidence une structure cohérente autour de deux grands axes complémentaires.
 
-Le premier axe est un axe de vulnérabilité sociale. Les IRIS présentant une part plus importante de ménages à bas revenus affichent également une part plus forte de prestations sociales. De la même manière, les IRIS où la part des revenus d’activité est élevée tendent à présenter une dépendance plus faible aux minima sociaux. Cette configuration dessine une opposition lisible entre des territoires davantage portés par les revenus du travail et d’autres plus dépendants des transferts.
+Le premier axe est un axe de vulnérabilité sociale. 
+- Les IRIS présentant une part plus importante de ménages à bas revenus affichent également une part plus forte de prestations sociales. 
+- De la même manière, les IRIS où la part des revenus d’activité est élevée tendent à présenter une dépendance plus faible aux minima sociaux. 
+Cette configuration dessine une opposition lisible entre des territoires davantage portés par les revenus du travail et d’autres plus dépendants des prestations sociales.
 
-Le second axe est un axe de composition du revenu. La relation entre revenus élevés et revenus patrimoniaux apparaît positive, mais plus dispersée. La relation entre part des revenus d’activité et revenu médian est elle aussi positive, tout en restant modérée. Autrement dit, le niveau de revenu importe, mais sa structure interne importe tout autant.
+Le second axe est un axe de composition du revenu. 
+- La relation entre revenus élevés et revenus patrimoniaux apparaît positive, mais plus dispersée. 
+- La relation entre part des revenus d’activité et revenu médian est elle aussi positive, tout en restant modérée. 
 
 Ces résultats confirment qu’un revenu médian seul ne suffit pas à caractériser les profils socio-économiques. Les indicateurs de revenus d’activité, de revenus patrimoniaux, de minima sociaux et de transferts sociaux apportent une information complémentaire décisive pour comprendre la diversité des situations locales.
 
