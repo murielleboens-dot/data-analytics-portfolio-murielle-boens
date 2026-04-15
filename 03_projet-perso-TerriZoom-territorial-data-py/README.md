@@ -181,7 +181,7 @@ Cela met en évidence un biais de sélection urbain marqué, directement lié à
 
 ![Analyse de représentativité du subset retenu](./images/TerriZoom%20-%20Analyse%20representativite%20du%20subset%20retenu.png)
 
-### Corrélations socio-économiques  le revenu seul ne suffit pas
+### Corrélations socio-économiques : le revenu seul ne suffit pas
 
 L’exploration des variables socio-économiques met en évidence une structure cohérente autour de deux grands axes complémentaires.
 
@@ -194,7 +194,7 @@ Ces résultats confirment qu’un revenu médian seul ne suffit pas à caractér
 ![Corrélation revenus activité et minima sociaux](./images/TerriZoom%20-%20Correlation%20revenus%20activite%20et%20minima%20sociaux.png)
 ![Corrélation revenus du patrimoine et salaire median](./images/TerriZoom%20-%20Correlation%20revenus%20du%20patrimoine%20et%20salaire%20median.png)
 
-### Saisonnalité des polluants  des dynamiques différenciées selon les polluants
+### Saisonnalité des polluants : des dynamiques différenciées selon les polluants
 
 L’analyse des séries journalières et trimestrielles de pollution met en évidence des dynamiques saisonnières nettement différenciées.
 
@@ -211,7 +211,7 @@ Ces résultats montrent que la phase N4 ne se limite pas à agréger des donnée
 ![Saisonnalité des polluants - PM2,5 - vue 1](./images/TerriZoom%20-%20Saisonnalité%20des%20polluants%20-%20PM2,5%20-%20vue%202.png)
 ![Saisonnalité des polluants - PM2,5 - vue 2](./images/TerriZoom%20-%20Saisonnalité%20des%20polluants%20-%20PM2,5.png)
 
-### Criminalité  des profils territoriaux spécialisés plutôt qu’un bloc homogène
+### Criminalité : des profils territoriaux spécialisés plutôt qu’un bloc homogène
 
 L’exploration des principaux indicateurs de criminalité montre que les communes qui ressortent fréquemment dans les classements élevés ne forment pas un groupe homogène de “forte criminalité”. Elles présentent au contraire des profils différenciés, relativement stables dans le temps selon les types d’infraction observés.
 
@@ -240,7 +240,7 @@ La phase N5 a permis de construire un premier cadre de comparaison territoriale 
  - implémenter une lecture complémentaire avec ELECTRE III
  - comparer les résultats obtenus selon les pondérations et selon la méthode mobilisée
 
-### Sensibilité aux pondérations  un classement sensible, mais non instable
+### Sensibilité aux pondérations : un classement sensible, mais non instable
 
 Sous le second scénario de pondération, le haut du classement demeure partiellement stable, tout en étant moins dominé par un seul profil très dynamique.
 
@@ -308,7 +308,7 @@ La phase N6 transforme les résultats analytiques du projet en un tableau de bor
  - La ventilation par commune met en évidence des profils locaux distincts, ce qui renforce l’intérêt d’une lecture environnementale à l’échelle communale.
  - L’articulation avec les analyses N4 montre que ces niveaux moyens doivent toujours être replacés dans leur saisonnalité propre.
 
-### Page 4 — Amélioration envisagée  socio-économie, structure territoriale et pollution
+### Page 4 — Amélioration envisagée : socio-économie, structure territoriale et pollution
 
 Une quatrième page est envisagée pour prolonger le dashboard dans une logique plus directement orientée vers l’aide à la décision. Cette page pourrait explorer les liens entre pollution, structure économique, revenu et vulnérabilité sociale.
 
