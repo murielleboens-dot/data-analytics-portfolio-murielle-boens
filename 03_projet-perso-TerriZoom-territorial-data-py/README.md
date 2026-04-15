@@ -299,10 +299,10 @@ La phase N6 transforme les résultats analytiques du projet en un tableau de bor
 
 #### Résultats clés — page 2
 
- - Le nuage revenu médian  cambriolages montre une dispersion réelle  il n’existe pas de relation simple et mécanique entre niveau de vie et cambriolages pour 1 000 habitants.
+ - Le nuage revenu médian vs cambriolages montre une dispersion réelle : il n’existe pas de relation simple et mécanique entre niveau de vie et cambriolages pour 1 000 habitants.
  - Les communes les plus peuplées se concentrent toutefois assez souvent dans une zone de cambriolages relativement soutenue, fréquemment autour de 8 à 12 pour 1 000 habitants.
  - Les niveaux les plus faibles de cambriolages sont davantage observés parmi des communes de plus petite taille, sans qu’il soit possible d’en déduire une loi générale.
- - Le nuage services publics  revenu médian montre qu’une forte densité de services publics pour 1 000 habitants n’est pas associée ici aux revenus médians les plus élevés.
+ - Le nuage services publics vs revenu médian montre qu’une forte densité de services publics pour 1 000 habitants n’est pas associée ici aux revenus médians les plus élevés.
  - Les revenus médians les plus élevés, visibles comme outliers dans la distribution, se situent plutôt dans des communes où la densité de services publics reste faible à modérée.
  - Le classement par violences intrafamiliales rappelle qu’un diagnostic territorial crédible doit intégrer des indicateurs de sécurité différenciés, et non seulement des indicateurs agrégés.
 
@@ -327,7 +327,7 @@ Parmi les croisements les plus pertinents à tester
  - pollution vs densité industrielle ;
  - pollution vs densité de commerces  services marchands ;
  - pollution vs revenu médian ;
- - pollution vs part de bas revenus  prestations sociales ;
+ - pollution vs part de bas revenus / prestations sociales ;
  - pollution selon type de commune ou classe de densité.
 
 Une telle extension permettrait de passer d’une lecture descriptive de la pollution à une lecture plus structurée des inégalités environnementales, des profils économiques locaux et des compromis territoriaux.
@@ -340,15 +340,15 @@ Une telle extension permettrait de passer d’une lecture descriptive de la poll
 
 À ce stade, TerriZoom fait ressortir plusieurs enseignements structurants.
 
-Le premier est qu’une analyse territoriale sérieuse commence par un travail lourd, souvent invisible, d’harmonisation inter-sources. Sans ce travail préalable, aucune comparaison multicritère crédible n’est possible.
+- Le premier est qu’une analyse territoriale sérieuse commence par un travail lourd, souvent invisible, d’harmonisation inter-sources. Sans ce travail préalable, aucune comparaison multicritère crédible n’est possible.
 
-Le deuxième est que la qualité analytique se paie par une restriction du périmètre. Le sous-ensemble retenu gagne en cohérence ce qu’il perd en représentativité nationale. Il permet une comparaison robuste, mais sur un espace plus urbain que la France communale dans son ensemble.
+- Le deuxième est que la qualité analytique se paie par une restriction du périmètre. Le sous-ensemble retenu gagne en cohérence ce qu’il perd en représentativité nationale. Il permet une comparaison robuste, mais sur un espace plus urbain que la France communale dans son ensemble.
 
-Le troisième est qu’un territoire ne se laisse pas résumer par une seule variable. Les analyses exploratoires montrent déjà que la réalité locale se structure à travers plusieurs dimensions  composition du revenu, vulnérabilité sociale, spécialisation des formes de criminalité, saisonnalité des polluants, différences de densité et de structure urbaine.
+- Le troisième est qu’un territoire ne se laisse pas résumer par une seule variable. Les analyses exploratoires montrent déjà que la réalité locale se structure à travers plusieurs dimensions : composition du revenu, vulnérabilité sociale, spécialisation des formes de criminalité, saisonnalité des polluants, différences de densité et de structure urbaine.
 
-Le quatrième est que la phase multicritère ne produit pas une vérité unique, mais une hiérarchie dépendante d’hypothèses explicites. Les pondérations comptent. La méthode compte. La comparaison entre TOPSIS et ELECTRE III montre précisément pourquoi cette transparence est indispensable.
+- Le quatrième est que la phase multicritère ne produit pas une vérité unique, mais une hiérarchie dépendante d’hypothèses explicites. Les pondérations comptent. La méthode compte. La comparaison entre TOPSIS et ELECTRE III montre précisément pourquoi cette transparence est indispensable.
 
-Le cinquième est que la visualisation dans Power BI ne sert pas seulement à “faire joli”. Elle transforme des résultats éclatés en lecture navigable, met en évidence des contrastes plus difficiles à saisir dans le code seul, et ouvre une première passerelle vers des usages plus décisionnels.
+- Le cinquième est que la visualisation dans Power BI transforme des résultats éparses en lecture navigable, met en évidence des contrastes plus difficiles à saisir dans le code seul, et ouvre une première passerelle vers des usages plus décisionnels.
 
 ---
 
@@ -361,7 +361,7 @@ Le projet reste soumis à plusieurs limites structurelles liées aux sources mob
  - granularités hétérogènes (IRIS, commune, jour, trimestre, année)
  - disponibilité partielle de certaines données
  - biais de représentativité du sous-ensemble final
- - fragilité possible de certains taux rapportés à la population officielle dans les communes touristiques ou à forte population présente
+ - fragilité possible de certains taux rapportés à la population officielle, dans les communes touristiques notamment.
 
 Ces contraintes introduisent 
 
@@ -376,7 +376,7 @@ Le périmètre retenu ne constitue donc pas une image nationale, mais un sous-en
 
 ## Choix méthodologiques
 
-Afin de garantir la cohérence de l’analyse, le projet repose sur les choix suivants 
+Afin de garantir la cohérence de l’analyse, le projet repose sur les choix suivants :
 
  - utiliser `insee_to_commune` comme table de référence géographique 
  - harmoniser les identifiants communaux, y compris pour Paris, Lyon et Marseille 
@@ -412,9 +412,10 @@ Pour l’analyse multicritère, les résultats ont été testés avec plusieurs 
 
 TerriZoom montre qu’un projet de data analyse territoriale solide ne consiste pas seulement à agréger quelques fichiers publics pour produire un classement final. Le cœur du travail se situe dans la construction d’un périmètre lisible, dans la mise à plat des biais, dans la capacité à faire parler ensemble des sources hétérogènes, puis dans l’acceptation du fait qu’un territoire ne se résume jamais à un seul chiffre.
 
-À travers ses phases successives, le projet met en évidence une ligne claire  mieux décider demande d’abord de mieux qualifier ce que l’on compare. Cela suppose d’assumer les limites du périmètre, de rendre explicites les choix méthodologiques, et de confronter plusieurs lectures d’un même espace plutôt que de chercher un classement prétendument neutre.
+À travers ses phases successives, le projet met en évidence une ligne claire :
+- mieux décider demande d’abord de mieux qualifier ce que l’on compare. Cela suppose d’assumer les limites du périmètre, de rendre explicites les choix méthodologiques, et de confronter plusieurs lectures d’un même espace plutôt que de chercher un classement prétendument neutre.
 
-Le projet aboutit ainsi à une proposition utile, à la fois analytique et opérationnelle  un cadre capable de faire émerger des profils territoriaux, d’identifier des points de vigilance, d’ouvrir des comparaisons multicritères transparentes, et de préparer une lecture plus directement mobilisable dans des logiques d’aide à la décision locale.
+Le projet aboutit ainsi à une proposition utile, à la fois analytique et opérationnelle : un cadre capable de faire émerger des profils territoriaux, d’identifier des points de vigilance, d’ouvrir des comparaisons multicritères transparentes, et de préparer une lecture plus directement mobilisable dans des logiques d’aide à la décision locale.
 
 ---
 
@@ -425,9 +426,9 @@ La suite naturelle de TerriZoom consiste à faire évoluer le projet d’une log
 Dans cette perspective, plusieurs prolongements sont envisageables :
 
  - construction de profils-types de communes pour comparer des territoires analogues 
- - ajout de scénarios de pondération adaptés à différents acteurs (collectivités, services publics, investisseurs, acteurs de la transition, aménageurs) 
+ - ajout de scénarios de pondération adaptés à différents acteurs (collectivités, services publics, investisseurs, acteurs de la transition, ...) 
  - développement d’indicateurs de vulnérabilité cumulée ou de pression territoriale 
  - approfondissement des liens entre pollution, activité économique et fragilité sociale 
  - intégration future d’une logique de priorisation d’actions plutôt que de simple classement
 
-Autrement dit, TerriZoom ne se limite pas à décrire des écarts entre communes. Le projet prépare les bases d’un outil capable d’éclairer des arbitrages territoriaux réels, à condition de toujours conserver la même exigence  rendre visibles les hypothèses, les limites et les compromis qui structurent toute décision.
+Autrement dit, TerriZoom ne se limite pas à décrire des écarts entre communes. Le projet prépare les bases d’un outil capable d’éclairer des arbitrages territoriaux réels, à condition de toujours conserver la même exigence : rendre visibles les hypothèses, les limites et les compromis qui structurent toute décision.
