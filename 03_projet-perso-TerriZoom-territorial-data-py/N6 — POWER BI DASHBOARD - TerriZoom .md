@@ -55,12 +55,11 @@ Cette première page propose une entrée synthétique sur le périmètre retenu 
 - top 15 des communes par revenu médian ;
 - table de détail communale.
 
-![Dashboard TerriZoom — Page 1](./TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
+![Dashboard TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
 
-#### Insights principaux — page 1
+#### Résultats clés — page 1
 
-- Les **communes urbaines intermédiaires et urbaines denses** présentent en moyenne les revenus médians les plus élevés du périmètre.
-- Les **communes rurales**, en particulier hors espaces périurbains, apparaissent globalement avec des revenus médians plus bas.
+- Les **communes urbaines intermédiaires et urbaines denses** présentent en moyenne les revenus médians les plus élevés du périmètre. Les **communes rurales**, en particulier hors espaces périurbains, apparaissent globalement avec des revenus médians plus bas.
 - La hiérarchie des communes les plus favorisées fait ressortir plusieurs communes de l’aire lémanique ou de zones à fort niveau de vie.
 - Les indicateurs de synthèse montrent immédiatement qu’une lecture territoriale pertinente suppose de croiser **revenu, services, sécurité et environnement**, et non de raisonner sur un seul critère.
 
@@ -75,9 +74,9 @@ Cette page explore les relations entre plusieurs variables :
 
 La taille des bulles est utilisée pour représenter la **taille des communes**.
 
-![Dashboard TerriZoom — Page 2](./TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
+![Dashboard TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
 
-#### Insights principaux — page 2
+#### Résultats clés — page 2
 
 - Le nuage **revenu médian / cambriolages** montre une dispersion réelle : il n’existe pas de relation simple et mécanique entre niveau de vie et taux de cambriolages.
 - Certaines communes plus favorisées affichent malgré tout des niveaux de cambriolages élevés, ce qui invite à éviter toute lecture trop linéaire.
@@ -94,9 +93,9 @@ Cette page est dédiée à la qualité de l’air. Elle présente :
 - les communes les plus exposées pour les PM2,5 ;
 - une table de consultation des niveaux moyens par polluant.
 
-![Dashboard TerriZoom — Page 3](./TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
+![Dashboard TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
 
-#### Insights principaux — page 3
+#### Résultats clés — page 3
 
 - Parmi les polluants visualisés, **l’ozone** présente la part moyenne d’exposition élevée la plus importante sur le périmètre retenu.
 - Les **PM2,5** restent présentes à un niveau non négligeable, mais inférieur à celui observé pour l’ozone.
@@ -110,7 +109,7 @@ Cette page est dédiée à la qualité de l’air. Elle présente :
 La phase N6 joue un rôle de **restitution analytique**. Elle permet de :
 
 - passer d’une logique de tables et de notebooks à une logique d’**exploration visuelle** ;
-- rendre les résultats du projet plus accessibles à un recruteur, un décideur ou un lecteur non technique ;
+- rendre les résultats du projet plus accessibles à un décideur ou un lecteur non technique ;
 - montrer la cohérence entre la préparation des données, l’analyse multicritère et la communication des résultats ;
 - mettre en évidence des contrastes territoriaux qui restent plus difficiles à saisir dans un notebook seul.
 
@@ -142,7 +141,6 @@ Le dashboard constitue donc une **brique de communication et d’aide à la déc
 ## Compétences mobilisées
 
 - Power BI
-- data storytelling
 - data visualization
 - structuration d’un dashboard décisionnel
 - traduction d’une analyse notebook en interface visuelle
