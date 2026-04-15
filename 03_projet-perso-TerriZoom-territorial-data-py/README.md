@@ -166,11 +166,12 @@ La phase N4 a également permis de
  - agréger les données de pollution de l’air à l’échelle communale
  - mener une première exploration des distributions, couvertures et dynamiques territoriales
 
-Un point méthodologique important a été identifié puis corrigé  les cas particuliers de Paris, Lyon et Marseille ont nécessité une harmonisation spécifique des codes d’arrondissements municipaux afin d’être correctement réintégrés au niveau communal.
+Un point méthodologique important a été identifié puis corrigé  : 
+- les cas particuliers de Paris, Lyon et Marseille ont nécessité une harmonisation spécifique des codes d’arrondissements municipaux afin d’être correctement réintégrés au niveau communal.
 
 Le périmètre principal d’analyse repose désormais sur 364 communes disposant de données complètes sur les sources retenues.
 
-### Validation du sous-ensemble retenu  un périmètre cohérent mais non représentatif de la France entière
+### Validation du sous-ensemble retenu : un périmètre cohérent mais non représentatif de la France entière
 
 La constitution du sous-ensemble de 364 communes a permis de disposer d’un périmètre de travail cohérent, exploitable et comparable entre plusieurs sources. En revanche, ce sous-ensemble n’est pas représentatif de l’ensemble des communes françaises du point de vue du profil de densité.
 
@@ -178,7 +179,7 @@ La comparaison entre le subset retenu et l’ensemble des communes françaises m
 
 Cela met en évidence un biais de sélection urbain marqué, directement lié à la contrainte de complétude croisée des données. En pratique, les analyses produites par TerriZoom ne doivent donc pas être lues comme une image générale de la France communale, mais comme une lecture appliquée à un périmètre plus urbain, plus dense et plus riche en données exploitables.
 
-![Analyse de représentativité du subset retenu](./images/TerriZoom%20-%20Analyse%20de%20représentativité%20du%20subset%20retenu.pngimagesTerriZoom%20-%20Analyse%20de%20repr%C3%A9sentativit%C3%A9%20du%20subset%20retenu.png)
+![Analyse de représentativité du subset retenu](./images/TerriZoom%20-%20Analyse%20representativite%20du%20subset%20retenu.png)
 
 ### Corrélations socio-économiques  le revenu seul ne suffit pas
 
