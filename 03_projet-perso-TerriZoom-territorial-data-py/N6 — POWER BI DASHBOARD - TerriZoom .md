@@ -80,7 +80,7 @@ La taille des bulles est utilisée pour représenter la **taille des communes**.
 - Le nuage **revenu médian / cambriolages** montre une dispersion réelle : il n’existe pas de relation simple et mécanique entre niveau de vie et taux de cambriolages.
 - Certaines communes plus favorisées affichent malgré tout des niveaux de cambriolages élevés, ce qui invite à éviter toute lecture trop linéaire.
 - Le nuage **services publics / revenu médian** montre qu’un niveau plus élevé de services publics pour 1 000 habitants ne correspond pas automatiquement à un revenu médian plus élevé.
-- Le classement par **violences intrafamiliales** rappelle qu’un diagnostic territorial crédible doit intégrer des indicateurs de sécurité différenciés, et non seulement des indicateurs agrégés de prospérité.
+- Le classement par **violences intrafamiliales** rappelle qu’un diagnostic territorial crédible doit intégrer des indicateurs de sécurité différenciés, et non seulement des indicateurs agrégés.
 
 ---
 
@@ -107,10 +107,10 @@ Cette page est dédiée à la qualité de l’air. Elle présente :
 
 La phase N6 joue un rôle de **restitution analytique**. Elle permet de :
 
-- passer d’une logique de tables et de notebooks à une logique d’**exploration visuelle** ;
+- passer d’une logique de tables à une logique d’**exploration visuelle** ;
 - rendre les résultats du projet plus accessibles à un décideur ou un lecteur non technique ;
 - montrer la cohérence entre la préparation des données, l’analyse multicritère et la communication des résultats ;
-- mettre en évidence des contrastes territoriaux qui restent plus difficiles à saisir dans un notebook seul.
+- mettre en évidence des contrastes territoriaux qui restent plus difficiles à saisir dans un fichier de code seul.
 
 ---
 
@@ -124,7 +124,7 @@ Le dashboard confirme plusieurs points importants du projet **TerriZoom** :
 - la restitution visuelle permet de mieux faire émerger des profils contrastés et des communes atypiques ;
 - les résultats doivent toujours être interprétés à la lumière du **périmètre réel d’analyse** : 364 communes comparables, principalement situées dans la zone élargie de Marseille et de Lyon.
 
-Le dashboard constitue donc une **brique de communication et d’aide à la décision**, adossée à un travail complet de collecte, nettoyage, agrégation et analyse multicritère.
+Le dashboard constitue donc une **proposition de communication et d’aide à la décision**, ajoutée à un travail complet de collecte, nettoyage, agrégation et analyse multicritère.
 
 ---
 
