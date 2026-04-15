@@ -185,7 +185,7 @@ La comparaison entre le subset retenu et l’ensemble des communes françaises m
 
 Cela met en évidence un biais de sélection urbain marqué, directement lié à la contrainte de complétude croisée des données. En pratique, les analyses produites par TerriZoom ne doivent donc pas être lues comme une image générale de la France communale, mais comme une lecture appliquée à un périmètre plus urbain, plus dense et plus riche en données exploitables.
 
-![Analyse de représentativité du subset retenu](.imagesTerriZoom%20-%20Analyse%20de%20repr%C3%A9sentativit%C3%A9%20du%20subset%20retenu.png)
+![Analyse de représentativité du subset retenu](./images/TerriZoom%20-%20Analyse%20de%20représentativité%20du%20subset%20retenu.pngimagesTerriZoom%20-%20Analyse%20de%20repr%C3%A9sentativit%C3%A9%20du%20subset%20retenu.png)
 
 ### Corrélations socio-économiques  le revenu seul ne suffit pas
 
@@ -197,8 +197,8 @@ Le second axe est un axe de composition du revenu. La relation entre revenus él
 
 Ces résultats confirment qu’un revenu médian seul ne suffit pas à caractériser les profils socio-économiques. Les indicateurs de revenus d’activité, de revenus patrimoniaux, de minima sociaux et de transferts sociaux apportent une information complémentaire décisive pour comprendre la diversité des situations locales.
 
-![Corrélation revenus activité et minima sociaux](.imagesTerriZoom%20-%20Correlation%20revenus%20activite%20et%20minima%20sociaux.png)
-![Corrélation revenus du patrimoine et salaire median](.imagesTerriZoom%20-%20Correlation%20revenus%20du%20patrimoine%20et%20salaire%20median.png)
+![Corrélation revenus activité et minima sociaux](./images/TerriZoom%20-%20Correlation%20revenus%20activite%20et%20minima%20sociaux.png)
+![Corrélation revenus du patrimoine et salaire median](./images/TerriZoom%20-%20Correlation%20revenus%20du%20patrimoine%20et%20salaire%20median.png)
 
 ### Saisonnalité des polluants  des dynamiques différenciées selon les polluants
 
@@ -212,10 +212,10 @@ Dans la même logique, le NO2 et les PM10 suivent eux aussi plutôt une dynamiqu
 
 Ces résultats montrent que la phase N4 ne se limite pas à agréger des données  elle fait déjà apparaître des structures temporelles interprétables, utiles pour comprendre les logiques environnementales du périmètre étudié.
 
-![Saisonnalité des polluants - Ozone](.imagesTerriZoom%20-%20Saisonnalit%C3%A9%20des%20polluants%20-%20Ozone.png)
-![Saisonnalité des polluants - PM2,5](.imagesTerriZoom%20-%20Saisonnalit%C3%A9%20des%20polluants%20-%20PM2%2C5.png)
-![Saisonnalité des polluants - Ozone - vue 2](.imagesTerriZoom%20-%20Saisonnalit%C3%A9%20des%20polluants%20-%20Ozone%20-%20vue%202.png)
-![Saisonnalité des polluants - PM2,5 - vue 2](.imagesTerriZoom%20-%20Saisonnalit%C3%A9%20des%20polluants%20-%20PM2%2C5%20-%20vue%202.png)
+![Saisonnalité des polluants - Ozone - vue 1](./images/TerriZoom%20-%20Saisonnalité%20des%20polluants%20-%20Ozone%20-%20vue%202.png)
+![Saisonnalité des polluants - Ozone - vue 2](./images/TerriZoom%20-%20Saisonnalité%20des%20polluants%20-%20Ozone.png)
+![Saisonnalité des polluants - PM2,5 - vue 1](./images/TerriZoom%20-%20Saisonnalité%20des%20polluants%20-%20PM2,5%20-%20vue%202.png)
+![Saisonnalité des polluants - PM2,5 - vue 2](./images/TerriZoom%20-%20Saisonnalité%20des%20polluants%20-%20PM2,5.png)
 
 ### Criminalité  des profils territoriaux spécialisés plutôt qu’un bloc homogène
 
@@ -227,9 +227,9 @@ Le “top” des communes observées doit donc être interprété comme un ensem
 
 Un point de vigilance méthodologique important apparaît ici  la normalisation pour 1 000 habitants améliore la comparabilité apparente, mais peut devenir plus fragile dans les communes à forte population présente non résidente, notamment touristiques ou saisonnières. Des communes comme Saint-Tropez ou Cannes peuvent ainsi voir leur population réelle largement dépasser leur population municipale officielle pendant une grande partie de l’année, ce qui peut conduire à surestimer certains taux rapportés aux seuls habitants permanents.
 
-![Usage de stupéfiants - Top 10 communes](.imagesTerriZoom%20-%20Usage%20de%20stupefiants%20-%20TOP%2010%20Communes.png)
-![Violences intrafamiliales - Top 10 communes](.imagesTerriZoom%20-%20Violences%20intra%20familiales%20%20-%20TOP%2010%20Communes.png)
-![Vols sans violence - Top 10 communes](.imagesTerriZoom%20-%20Vols%20sans%20violence%20%20-%20TOP%2010%20Communes.png)
+![Usage de stupéfiants - Top 10 communes](./images/TerriZoom%20-%20Usage%20de%20stupefiants%20-%20TOP%2010%20Communes.png)
+![Violences intrafamiliales - Top 10 communes](./images/TerriZoom%20-%20Violences%20intra%20familiales%20%20-%20TOP%2010%20Communes.png)
+![Vols sans violence - Top 10 communes](./images/TerriZoom%20-%20Vols%20sans%20violence%20%20-%20TOP%2010%20Communes.png)
 
 ---
 
@@ -256,7 +256,7 @@ Quelques mouvements apparaissent néanmoins. Saint-Flour entre dans le top 10, t
 
 En bas de classement, les communes les moins bien classées restent globalement associées à une combinaison moins favorable de vulnérabilité sociale, de niveau de revenu, et selon les cas d’indicateurs de sécurité ou de pollution plus dégradés. Autrement dit, les hypothèses de pondération modifient la hiérarchie, mais les profils extrêmes conservent une certaine cohérence.
 
-![Analyse multicritère TOPSIS](.imagesTerriZoom%20-%20Analyse%20multicrit%C3%A8re%20TOPSIS.png)
+![Analyse multicritère TOPSIS](./images/TerriZoom%20-%20Analyse%20multicritère%20TOPSIS.png)
 
 ### TOPSIS et ELECTRE III  deux logiques d’évaluation réellement différentes
 
@@ -270,7 +270,7 @@ Cette différence de logique apparaît clairement dans les résultats. Plusieurs
 
 Au final, la comparaison confirme que les résultats multicritères sont sensibles aux choix méthodologiques, non seulement en matière de pondération, mais aussi de méthode de décision. Ce point renforce l’intérêt d’une démarche transparente  un classement n’est jamais “neutre”, il dépend toujours d’une architecture de choix explicites.
 
-![Comparaison ELECTRE III et TOPSIS](.imagesTerriZoom%20-%20Analyse%20multicrit%C3%A8re%20comparaison%20ELCTRE%20III%20TOPSIS.png)
+![Comparaison ELECTRE III et TOPSIS](./images/TerriZoom%20-%20Analyse%20multicritère%20comparaison%20ELCTRE%20III%20TOPSIS.png)
 
 ---
 
@@ -280,7 +280,7 @@ La phase N6 transforme les résultats analytiques du projet en un tableau de bor
 
 ### Page 1 — Vue d’ensemble socio-économique et territoriale
 
-![Tableau de bord TerriZoom — Page 1](.imagesTerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
+![Tableau de bord TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
 
 #### Résultats clés — page 1
 
@@ -291,7 +291,7 @@ La phase N6 transforme les résultats analytiques du projet en un tableau de bor
 
 ### Page 2 — Croisement de données socio-économiques et criminalité
 
-![Tableau de bord TerriZoom — Page 2](.imagesTerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
+![Tableau de bord TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
 
 #### Résultats clés — page 2
 
@@ -304,7 +304,7 @@ La phase N6 transforme les résultats analytiques du projet en un tableau de bor
 
 ### Page 3 — Exposition moyenne aux polluants atmosphériques
 
-![Tableau de bord TerriZoom — Page 3](.imagesTerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
+![Tableau de bord TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
 
 #### Résultats clés — page 3
 
