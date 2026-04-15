@@ -169,7 +169,7 @@ Le périmètre principal d’analyse repose désormais sur **364 communes dispos
 
 ---
 
-## Résultats (phase N5)
+## Résultats - phase N5 - ANALYSE MULTICRITERES
 
 La phase N5 (analyse multicritère) a permis de construire un premier cadre de comparaison territoriale à partir de la table communale consolidée produite en N4.
 
@@ -188,19 +188,74 @@ Le périmètre principal d’analyse repose sur **364 communes**.
 
 ---
 
+## Résultats — phase N6 - DASHBOARD POWER BI
+
+La phase **N6** transforme les résultats analytiques du projet en un **dashboard interactif** organisé en trois pages.
+
+### Page 1 — Vue d’ensemble socio-économique et territoriale
+
+![Dashboard TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
+
+**Insights principaux :**
+- les communes urbaines intermédiaires et urbaines denses affichent en moyenne les revenus médians les plus élevés ;
+- les communes rurales apparaissent globalement avec des revenus médians plus faibles ;
+- les indicateurs de synthèse rappellent qu’un diagnostic territorial utile doit croiser revenu, services, criminalité et exposition environnementale.
+
+### Page 2 — Croisement de données socio-économiques et criminalité
+
+![Dashboard TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
+
+**Insights principaux :**
+- la relation entre revenu médian et cambriolages existe, mais reste dispersée et non linéaire ;
+- des communes relativement favorisées peuvent aussi présenter des taux élevés de cambriolages ;
+- la relation entre densité de services publics et revenu médian est elle aussi non mécanique ;
+- l’intégration d’un indicateur spécifique de violences intrafamiliales enrichit la lecture de la sécurité territoriale.
+
+### Page 3 — Exposition moyenne aux polluants atmosphériques
+
+![Dashboard TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
+
+**Insights principaux :**
+- l’ozone ressort comme le polluant présentant la part moyenne d’exposition élevée la plus importante sur le périmètre retenu ;
+- les PM2,5 apparaissent à un niveau intermédiaire ;
+- les PM10 sont en moyenne moins présents dans les niveaux élevés observés ;
+- les profils d’exposition restent contrastés selon les communes.
+
+---
+
+## Conclusions du projet à ce stade
+
+À ce stade, **TerriZoom** montre qu’une lecture territoriale sérieuse demande :
+
+- un fort travail d’**harmonisation de sources hétérogènes** ;
+- une sélection rigoureuse d’un **périmètre comparable** ;
+- une lecture **multicritère**, car aucun indicateur isolé ne suffit à décrire un territoire ;
+- une attention constante aux **limites d’interprétation**, en particulier lorsque les temporalités et les couvertures diffèrent selon les sources.
+
+Le projet permet également de mettre en évidence plusieurs enseignements :
+
+- les contrastes territoriaux restent visibles dès la phase descriptive ;
+- les relations entre niveau de vie, services, sécurité et pollution sont réelles, mais rarement simples ;
+- la restitution visuelle dans Power BI améliore fortement la lisibilité des résultats pour un usage exploratoire ou décisionnel ;
+- les résultats multicritères dépendent des choix méthodologiques, ce qui justifie une approche prudente et transparente.
+
+En l’état, le projet ne propose **pas une image exhaustive de toutes les communes françaises**, mais un **cadre analytique cohérent** appliqué à **364 communes comparables**, principalement situées dans la zone élargie de Marseille et de Lyon.
+
+---
+
 ## Limites
 
 Le projet reste soumis à plusieurs limites structurelles liées aux sources mobilisées :
 
-- couverture géographique inégale, notamment pour la pollution de l’air
-- temporalités différentes selon les datasets
-- granularités hétérogènes (IRIS, commune, jour, trimestre, année)
-- disponibilité partielle de certaines données
+- couverture géographique inégale, notamment pour la pollution de l’air ;
+- temporalités différentes selon les datasets ;
+- granularités hétérogènes (IRIS, commune, jour, trimestre, année) ;
+- disponibilité partielle de certaines données.
 
 Ces contraintes introduisent :
-- des limites de comparabilité
-- un biais géographique dans le sous-ensemble exploitable
-- une prudence nécessaire dans l’interprétation
+- des limites de comparabilité ;
+- un biais géographique dans le sous-ensemble exploitable ;
+- une prudence nécessaire dans l’interprétation.
 
 Le périmètre retenu ne constitue donc **pas une image nationale**, mais un sous-ensemble cohérent de communes comparables au regard des données disponibles.
 
@@ -210,36 +265,29 @@ Le périmètre retenu ne constitue donc **pas une image nationale**, mais un sou
 
 Afin de garantir la cohérence de l’analyse, le projet repose sur les choix suivants :
 
-- utiliser **`insee_to_commune`** comme table de référence géographique
-- harmoniser les identifiants communaux, y compris pour Paris, Lyon et Marseille
-- agréger les différentes sources au **niveau communal**
-- restreindre l’analyse principale aux **364 communes complètes**
-- privilégier la qualité, la cohérence et la comparabilité des données à l’exhaustivité
+- utiliser **`insee_to_commune`** comme table de référence géographique ;
+- harmoniser les identifiants communaux, y compris pour Paris, Lyon et Marseille ;
+- agréger les différentes sources au **niveau communal** ;
+- restreindre l’analyse principale aux **364 communes complètes** ;
+- privilégier la qualité, la cohérence et la comparabilité des données à l’exhaustivité.
 
 Pour la criminalité, seuls les indicateurs les plus robustes ont été retenus pour le noyau principal d’analyse.  
 Pour la pollution, les variables ont été traitées comme des **niveaux ordonnés** et agrégées avec des indicateurs adaptés.
 
-Ces choix permettent de construire un cadre analytique solide pour la suite du projet, notamment en vue d’une future analyse multi-critères.
-
 ---
 
-## Prochaine étape
+## Compétences mobilisées
 
-- **N6 — Dashboard PowerBI**
-  - construction d'un premier dashboard test sur PowerBI
-
----
-
-## Compétences mobilisées à ce stade
-
-- Python (`pandas`, `numpy`, `requests`, `matplotlib`)
-- intégration et croisement de données multi-sources
-- traitement de fichiers hétérogènes (CSV, gzip, JSON API)
-- requêtes analytiques avec DuckDB
-- nettoyage, structuration et normalisation de données
-- harmonisation de sources de granularités et temporalités différentes
-- construction de référentiels et de correspondances géographiques
-- analyse exploratoire et agrégation d’indicateurs
-- préparation de données pour l’analyse multicritère
-- mise en œuvre de méthodes MCDA : TOPSIS et ELECTRE III
-- analyse de sensibilité via scénarios de pondération
+- Python (`pandas`, `numpy`, `requests`, `matplotlib`, `seeborn`) ;
+- intégration et croisement de données multi-sources ;
+- traitement de fichiers hétérogènes (CSV, gzip, JSON API) ;
+- requêtes analytiques avec DuckDB ;
+- nettoyage, structuration et normalisation de données ;
+- harmonisation de sources de granularités et temporalités différentes ;
+- construction de référentiels et de correspondances géographiques ;
+- analyse exploratoire et agrégation d’indicateurs ;
+- préparation de données pour l’analyse multicritère ;
+- mise en œuvre de méthodes MCDA : TOPSIS et ELECTRE III ;
+- analyse de sensibilité via scénarios de pondération ;
+- Power BI ;
+- data visualization ;
