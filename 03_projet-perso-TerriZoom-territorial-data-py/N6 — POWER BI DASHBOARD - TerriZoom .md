@@ -53,15 +53,14 @@ Cette première page propose une entrée synthétique sur le périmètre retenu 
 - part moyenne d’exposition aux PM2,5 en niveau ATMO ≥ 4 ;
 - comparaison du revenu médian selon le type de commune ;
 - top 15 des communes par revenu médian ;
-- table de détail communale.
+- table détaillée au niveau communal ;
 
 ![Dashboard TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
 
 #### Résultats clés — page 1
 
 - Les **communes urbaines intermédiaires et urbaines denses** présentent en moyenne les revenus médians les plus élevés du périmètre. Les **communes rurales**, en particulier hors espaces périurbains, apparaissent globalement avec des revenus médians plus bas.
-- La hiérarchie des communes les plus favorisées fait ressortir plusieurs communes de l’aire lémanique ou de zones à fort niveau de vie.
-- Les indicateurs de synthèse montrent immédiatement qu’une lecture territoriale pertinente suppose de croiser **revenu, services, sécurité et environnement**, et non de raisonner sur un seul critère.
+- Les indicateurs de synthèse montrent immédiatement qu’une lecture territoriale pertinente suppose de croiser plusieurs critères, par exemple comme proposé dans ce projet, **revenu, services, sécurité et environnement**, et non de raisonner sur un seul critère.
 
 ---
 
