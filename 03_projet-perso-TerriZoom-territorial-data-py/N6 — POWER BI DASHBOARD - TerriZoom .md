@@ -1,8 +1,8 @@
-## N6 — POWER BI DASHBOARD - TerriZoom
+## N6 — TABLEAU DE BORD POWER BI - TerriZoom
 
 ## Rôle de la phase N6
 
-La phase **N6** transforme la table analytique communale produite dans les phases **N3**, **N4** et **N5** en un **dashboard Power BI interactif** destiné à l’exploration, à la comparaison et à la restitution des résultats.
+La phase **N6** transforme la table analytique communale produite dans les phases **N3**, **N4** et **N5** en un **tableau de bord Power BI interactif** destiné à l’exploration, à la comparaison et à la restitution des résultats.
 
 L’objectif n’est pas seulement de visualiser quelques indicateurs, mais de proposer une **lecture territoriale synthétique et navigable** à partir d’un sous-ensemble cohérent de communes disposant d’un socle commun de données comparables.
 
@@ -12,13 +12,13 @@ L’objectif n’est pas seulement de visualiser quelques indicateurs, mais de p
 
 **Comment construire une lecture multicritère cohérente des communes à partir de données publiques hétérogènes portant sur le niveau de vie, les dimensions socio-économiques, la criminalité et la qualité de l’air ?**
 
-Le dashboard répond à cette problématique en rendant plus lisibles les arbitrages entre plusieurs dimensions territoriales, sans masquer les limites de couverture des sources mobilisées.
+Le tableau de bord répond à cette problématique en rendant plus lisibles les arbitrages entre plusieurs dimensions territoriales, sans masquer les limites de couverture des sources mobilisées.
 
 ---
 
 ## Périmètre d’analyse
 
-Le dashboard repose sur un **sous-ensemble de 364 communes** pour lesquelles un socle commun de données a pu être consolidé.
+Le tableau de bord repose sur un **sous-ensemble de 364 communes** pour lesquelles un socle commun de données a pu être consolidé.
 
 Ce périmètre couvre principalement une **zone élargie de Marseille et de Lyon**, car ce sont les communes pour lesquelles le croisement des sources socio-économiques, de sécurité et de qualité de l’air était le plus exploitable dans le cadre du projet.
 
@@ -26,7 +26,7 @@ Le tableau de bord ne constitue donc **pas une vision nationale exhaustive**, ma
 
 ---
 
-## Objectifs du dashboard
+## Objectifs du tableau de bord
 
 La phase N6 vise à :
 
@@ -38,9 +38,9 @@ La phase N6 vise à :
 
 ---
 
-## Structure du dashboard
+## Structure du tableau de bord
 
-Le dashboard est organisé en **trois pages complémentaires**.
+Le tableau de bord est organisé en **trois pages complémentaires**.
 
 ### 1. Vue d’ensemble socio-économique et territoriale
 
@@ -55,7 +55,7 @@ Cette première page propose une entrée synthétique sur le périmètre retenu 
 - top 15 des communes par revenu médian ;
 - table détaillée au niveau communal ;
 
-![Dashboard TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
+![Tableau de bord TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
 
 #### Résultats clés — page 1
 
@@ -73,7 +73,7 @@ Cette page explore les relations entre plusieurs variables :
 
 La taille des bulles est utilisée pour représenter la **taille des communes**.
 
-![Dashboard TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
+![Tableau de bord TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
 
 #### Résultats clés — page 2
 
@@ -92,7 +92,7 @@ Cette page est dédiée à la qualité de l’air. Elle présente :
 - les communes les plus exposées pour les PM2,5 ;
 - une table de consultation des niveaux moyens par polluant.
 
-![Dashboard TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
+![Tableau de bord TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
 
 #### Résultats clés — page 3
 
@@ -116,7 +116,7 @@ La phase N6 joue un rôle de **restitution analytique**. Elle permet de :
 
 ## Conclusions à ce stade
 
-Le dashboard confirme plusieurs points importants du projet **TerriZoom** :
+Le tableau de bord confirme plusieurs points importants du projet **TerriZoom** :
 
 - la **comparabilité territoriale** exige un fort travail préalable d’harmonisation des sources ;
 - les communes ne se laissent pas décrire de manière pertinente par un indicateur unique ;
@@ -124,7 +124,7 @@ Le dashboard confirme plusieurs points importants du projet **TerriZoom** :
 - la restitution visuelle permet de mieux faire émerger des profils contrastés et des communes atypiques ;
 - les résultats doivent toujours être interprétés à la lumière du **périmètre réel d’analyse** : 364 communes comparables, principalement situées dans la zone élargie de Marseille et de Lyon.
 
-Le dashboard constitue donc une **proposition de communication et d’aide à la décision**, ajoutée à un travail complet de collecte, nettoyage, agrégation et analyse multicritère.
+Le tableau de bord constitue donc une **proposition de communication et d’aide à la décision**, ajoutée à un travail complet de collecte, nettoyage, agrégation et analyse multicritère.
 
 ---
 
@@ -141,7 +141,7 @@ Le dashboard constitue donc une **proposition de communication et d’aide à la
 
 - Power BI
 - data visualization
-- structuration d’un dashboard décisionnel
+- structuration d’un dtableau de bord décisionnel
 - traduction d’une analyse notebook en interface visuelle
 - sélection et hiérarchisation d’indicateurs
 - restitution de résultats multi-sources et multi-critères

@@ -75,7 +75,7 @@ Le projet repose sur une base consolidée au niveau **commune** (`insee_commune_
 - `N3` — Collecte et transformation des données
 - `N4` — Agrégation des données
 - `N5` — Analyse multicritère
-- `N6` — Power BI Dashboard
+- `N6` — Tableau de bord Power BI
 - `cleaned_data/` — fichiers nettoyés
 - `requirements.txt` — dépendances
 
@@ -188,38 +188,20 @@ Le périmètre principal d’analyse repose sur **364 communes**.
 
 ---
 
-## Résultats — phase N6 - DASHBOARD POWER BI
+## Résultats — phase N6 - TABLEAU DE BORD POWER BI
 
-La phase **N6** transforme les résultats analytiques du projet en un **dashboard interactif** organisé en trois pages.
+La phase **N6** transforme les résultats analytiques du projet en un **tableau de bord interactif** organisé en trois pages.
 
 ### Page 1 — Vue d’ensemble socio-économique et territoriale
 
-![Dashboard TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
-
-**Insights principaux :**
-- les communes urbaines intermédiaires et urbaines denses affichent en moyenne les revenus médians les plus élevés ;
-- les communes rurales apparaissent globalement avec des revenus médians plus faibles ;
-- les indicateurs de synthèse rappellent qu’un diagnostic territorial utile doit croiser revenu, services, criminalité et exposition environnementale.
-
 ### Page 2 — Croisement de données socio-économiques et criminalité
-
-![Dashboard TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
-
-**Insights principaux :**
-- la relation entre revenu médian et cambriolages existe, mais reste dispersée et non linéaire ;
-- des communes relativement favorisées peuvent aussi présenter des taux élevés de cambriolages ;
-- la relation entre densité de services publics et revenu médian est elle aussi non mécanique ;
-- l’intégration d’un indicateur spécifique de violences intrafamiliales enrichit la lecture de la sécurité territoriale.
 
 ### Page 3 — Exposition moyenne aux polluants atmosphériques
 
-![Dashboard TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
+![Exemple : tableau de bord TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
 
-**Insights principaux :**
-- l’ozone ressort comme le polluant présentant la part moyenne d’exposition élevée la plus importante sur le périmètre retenu ;
-- les PM2,5 apparaissent à un niveau intermédiaire ;
-- les PM10 sont en moyenne moins présents dans les niveaux élevés observés ;
-- les profils d’exposition restent contrastés selon les communes.
+![Visualisez tout le processus de construction du Tableau de Bord ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/blob/main/03_projet-perso-TerriZoom-territorial-data-py/N6%20%E2%80%94%20POWER%20BI%20DASHBOARD%20-%20TerriZoom%20.md)
+
 
 ---
 
