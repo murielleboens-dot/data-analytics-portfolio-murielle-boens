@@ -98,9 +98,8 @@ Chaque projet contient :
 
 ## Compétences mobilisées
 
-- Excel (analyse, TCD, dashboard)
-- Python (analyse de données)
-- Structuration de datasets
-- Visualisation de données
-- Analyse territoriale
-- Interprétation et synthèse
+- **Excel** (préparation exploratoire des données, contrôles, tableaux croisés dynamiques, premiers tableaux de bord)
+- **Python** (collecte, préparation, analyse exploratoire et statistique, analyse multicritère, visualisations)
+- **Power BI** (conception de tableaux de bord interactifs)
+- **Analyse territoriale**
+- **Interprétation des résultats et synthèse orientée aide à la décision**
