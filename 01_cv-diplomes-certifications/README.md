@@ -29,3 +29,5 @@ Les documents sont disponibles en téléchargement ci-dessous.
 
 - [Python for Data Science, AI and Development](certifications/python_data_science_coursera.pdf)
 
+- [Bilan Carbone - Maitrise de la méthode](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/blob/main/01_cv-diplomes-certifications/certifications/Data/Formation_Bilan_Carbone_2_Maitrise_Murielle_Boens.jpg)
+
