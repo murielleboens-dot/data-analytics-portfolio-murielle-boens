@@ -193,15 +193,15 @@ Le périmètre principal d’analyse repose sur **364 communes**.
 La phase **N6** transforme les résultats analytiques du projet en un **tableau de bord interactif** organisé en trois pages.
 
 ### Page 1 — Vue d’ensemble socio-économique et territoriale
+![ tableau de bord TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
 
 ### Page 2 — Croisement de données socio-économiques et criminalité
+![ tableau de bord TerriZoom — Page 2](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%202.png)
 
 ### Page 3 — Exposition moyenne aux polluants atmosphériques
+![ tableau de bord TerriZoom — Page 3](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%203.png)
 
-![Exemple : tableau de bord TerriZoom — Page 1](./images/TerriZoom%20Dashboard%20-%20Power%20BI%20-%20Page%201.png)
-
-![Visualisez tout le processus de construction du Tableau de Bord ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/blob/main/03_projet-perso-TerriZoom-territorial-data-py/N6%20%E2%80%94%20POWER%20BI%20DASHBOARD%20-%20TerriZoom%20.md)
-
+[Voir la page dédiée au dashboard Power BI](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/blob/main/03_projet-perso-TerriZoom-territorial-data-py/N6%20%E2%80%94%20POWER%20BI%20DASHBOARD%20-%20TerriZoom%20.md)
 
 ---
 
