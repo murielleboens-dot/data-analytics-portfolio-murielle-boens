@@ -21,8 +21,8 @@ __pycache__/
 # 📊 DATA
 # ======================
 # données intermédiaires / lourdes
-03_projet-perso-TerriZoom-territorial-data-py/cleaned_data
-03_projet-perso-TerriZoom-territorial-data-py/source_files
+03_TerriZoom_analyse_multicritere_territoriale_aide_decision_python_powerbi/cleaned_data/
+03_TerriZoom_analyse_multicritere_territoriale_aide_decision_python_powerbi/source_files/
 # ======================
 # 💻 SYSTEM
 # ======================

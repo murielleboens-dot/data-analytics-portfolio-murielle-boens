@@ -39,50 +39,49 @@ Ce [dossier](https://github.com/murielleboens-dot/data-analytics-portfolio-murie
 
 ---
 
-### 02 – Projet personnel : étude COVID (Excel)
+### 02 – Analyse exploratoire : évolution de la mortalité pendant la crise COVID (Excel)
 
-Analyse de l’évolution de la mortalité en France entre 2018 et 2021.
+Analyse de l’évolution de la mortalité en France entre 2018 et 2021, à partir de données publiques.
 
-Ce projet inclut :
-- structuration et nettoyage de données
-- construction de tables analytiques
-- création d’un dashboard sous Excel
-- identification d’insights clés sur l’impact du COVID
+Travaux réalisés :
+- structuration, nettoyage et fiabilisation de données multi-sources  
+- construction de tables analytiques  
+- création d’un dashboard sous Excel  
+- analyse des tendances et identification d’insights sur l’impact de la crise COVID  
 
-Objectif : montrer ma maîtrise d’Excel pour l’analyse de données
+Approche : transformer des données brutes en indicateurs lisibles et exploitables.
 
-Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/02_projet-perso-etude-covid-excel)
-
----
-
-## 03 – Projet personnel : TerriZoom (Python & Power BI)
-
-Projet d’exploration territoriale par la donnée, conçu comme un outil d’aide à la décision multicritère à l’échelle locale
-(emploi, dynamiques sociales, santé, sécurité, environnement).
-
-Ce projet vise à :
-- explorer et croiser des données locales
-- structurer des indicateurs territoriaux
-- produire des analyses lisibles et exploitables
-
-Objectif : démontrer ma capacité à combiner plusieurs outils et approches afin de rendre compréhensibles des problématiques territoriales complexes.
-
-Plus de détails [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_projet-perso-TerriZoom-territorial-data-py)
+🔗 [Voir le projet](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/02_projet-perso-etude-covid-excel)
 
 ---
 
-### 04 – Projets professionnels
+## 03 – TerriZoom - Analyse multicritère territoriale : aide à la décision (Python & Power BI)
 
-Ce dossier regroupe des exemples de projets réalisés dans un cadre professionnel.
+Analyse territoriale multicritère à l’échelle locale, à partir de données publiques liées aux dynamiques socio-économiques, à la santé, à la sécurité et à l’environnement.
 
-On y trouve :
-- des visuels issus d’analyses de données
-- des supports de compréhension
-- des éléments de mise en action basés sur les données
+Travaux réalisés :
+- collecte, structuration et croisement de données territoriales hétérogènes
+- construction d’indicateurs comparables entre communes
+- application de méthodes d’aide à la décision multicritère
+- restitution des résultats sous forme d’analyses lisibles et de visualisations Power BI
 
-Objectif : illustrer le passage de l’analyse à l’opérationnel
+Approche : rendre compréhensibles des problématiques territoriales complexes afin de faciliter l’arbitrage et la décision.
 
-Accédez aux projets PRO [ici](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/04_projets-professionnels)
+🔗 [Voir le projet](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_projet-perso-TerriZoom-territorial-data-py)
+
+---
+
+## 04 – Expériences professionnelles
+
+Ce dossier présente une sélection de réalisations menées dans un cadre professionnel, à partir de données partageables et non sensibles.
+
+Ces éléments illustrent :
+- l’analyse et la valorisation de données métier
+- la structuration d’indicateurs d’aide à la décision
+- la restitution visuelle de résultats
+- le passage de l’analyse à l’action opérationnelle
+
+🔗 [Voir les réalisations professionnelles](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/04_projets-professionnels)
 
 ---
 
