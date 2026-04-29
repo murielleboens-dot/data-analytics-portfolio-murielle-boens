@@ -51,7 +51,7 @@ Travaux réalisés :
 
 Approche : transformer des données brutes en indicateurs lisibles et exploitables.
 
-🔗 [Voir le projet](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/02_projet-perso-etude-covid-excel)
+🔗 [Voir le projet](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/02_analyse_exploratoire_evolution_mortalite_covid_excel)
 
 ---
 
@@ -67,7 +67,7 @@ Travaux réalisés :
 
 Approche : rendre compréhensibles des problématiques territoriales complexes afin de faciliter l’arbitrage et la décision.
 
-🔗 [Voir le projet](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_projet-perso-TerriZoom-territorial-data-py)
+🔗 [Voir le projet](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/03_TerriZoom_analyse_multicritere_territoriale_aide_decision_python_powerbi)
 
 ---
 
@@ -81,7 +81,7 @@ Ces éléments illustrent :
 - la restitution visuelle de résultats
 - le passage de l’analyse à l’action opérationnelle
 
-🔗 [Voir les réalisations professionnelles](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/04_projets-professionnels)
+🔗 [Voir les réalisations professionnelles](https://github.com/murielleboens-dot/data-analytics-portfolio-murielle-boens/tree/main/04_experiences-professionnelles)
 
 ---
 
