@@ -55,7 +55,7 @@ Approche : transformer des données brutes en indicateurs lisibles et exploitabl
 
 ---
 
-## 03 – TerriZoom - Analyse multicritère territoriale : aide à la décision (Python & Power BI)
+### 03 – TerriZoom - Analyse multicritère territoriale : aide à la décision (Python & Power BI)
 
 Analyse territoriale multicritère à l’échelle locale, à partir de données publiques liées aux dynamiques socio-économiques, à la santé, à la sécurité et à l’environnement.
 
@@ -71,7 +71,7 @@ Approche : rendre compréhensibles des problématiques territoriales complexes a
 
 ---
 
-## 04 – Expériences professionnelles
+### 04 – Expériences professionnelles
 
 Ce dossier présente une sélection de réalisations menées dans un cadre professionnel, à partir de données partageables et non sensibles.
 
